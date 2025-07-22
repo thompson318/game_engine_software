@@ -1,19 +1,44 @@
-import pycurl
 import json
-from io import BytesIO
+import requests
 
-buffer = BytesIO()
-c=pycurl.Curl()
+def get_url(url : str):
+    """
+    a wrapper for getting urls
+    """
+    payload = requests.get(url)
+    return payload.json()
 
-c.setopt(c.URL, 'https://www.wikitable2json.com/api/List_of_game_engines?table=0&keyRows=1')
-c.setopt(c.WRITEDATA, buffer)
-c.perform()
+def get_game_engines():
+    """
+    returns a list of game_engine dictionaries (currently derived from wikipedia)
+    """
+    body=get_url('https://www.wikitable2json.com/api/List_of_game_engines?table=0&keyRows=1')
+    return body[0]
 
-body=buffer.getvalue()
-json_obj = json.loads(body.decode())
 
-for item in json_obj[0]:
-    # we need to clear the buffer here then better prepare our search 
-    # terms
-    print(item.get('Name'))
-    c.setopt(c.URL, 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=unreal+engine')
+def get_citations(engine_name : str):
+    """ Searches database (pubmed) to get citations that may reference the engine_name """
+    search_term = engine_name.replace(" ", "+")
+    url = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term="' + search_term + '"'
+    body = get_url(url)
+    count = body.get('esearchresult').get('count')
+    human_url = 'https://pubmed.ncbi.nlm.nih.gov/?term="' + search_term + '"'
+    return human_url, count
+
+if __name__ == '__main__':
+    game_engines = get_game_engines()
+    
+    games = { "data" : [] }
+    for engine in game_engines:
+        print ("processing " + engine.get('Name'))
+        url, count = get_citations(engine.get('Name'))
+        games.get("data").append({ "name" : engine.get('Name'), "pubmed cites" : count, "pubmed url" : url})
+
+    with open("script.js", "r") as filein:
+        script = filein.read()
+
+    with open("game_engine_table.js", "w") as fileout:
+        fileout.write("const game_engines = " + json.dumps(games))
+        fileout.write(script)
+    
+

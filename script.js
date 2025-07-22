@@ -19,6 +19,10 @@ function generateTable(data) {
     keys.forEach(key => {
       const td = document.createElement('td');
       td.textContent = item[key] || ""; // Fill empty fields with blank
+      if (key === 'pubmed url'){
+	    console.log("setting ",  item[key]);
+	    td.firstChild.outerHTML = "<a href=item[key] target='_blank'>PubMed</a>"; // this isn't working as I'd hope
+      };
       row.appendChild(td);
     });
     table.appendChild(row);
