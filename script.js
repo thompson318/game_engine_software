@@ -1,11 +1,3 @@
-// Example JSON data
-const jsonData = {
-  "data": [
-    { "name": "Alice", "age": 25, "city": "Paris" },
-    { "name": "Bob", "age": 30, "city": "London" },
-    { "name": "Charlie", "age": 35, "city": "New York" }
-  ]
-};
 // Function to generate the table
 function generateTable(data) {
   if (!data || data.length === 0) return "No data available.";
@@ -35,5 +27,5 @@ function generateTable(data) {
 }
 // Render the table
 const container = document.getElementById('table-container');
-const table = generateTable(jsonData.data);
+const table = generateTable(game_engines.data);
 if (table) container.appendChild(table);
