@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use game_engine_software in your research, please cite it as below."
+authors:
+- family-names: "Thompson"
+  given-names: "Stephen"
+  orcid: "https://orcid.org/0000-0001-7286-1326"
+title: "game_engine_software"
+url: "https://github.com/thompson318/game_engine_software"

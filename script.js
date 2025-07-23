@@ -1,3 +1,6 @@
+// The following is mostly copy and pasted (with thanks) from:
+// https://medium.com/@rihab.beji099/transform-json-data-into-dynamic-html-tables-with-ease-c3ad579f6e59
+
 // Function to generate the table
 function generateTable(data) {
   if (!data || data.length === 0) return "No data available.";
