@@ -7,3 +7,12 @@ requires-python = ">=3.10"
 dependencies = [
     "requests>=2.32.4",
 ]
+
+[dependency-groups]
+dev = [
+    "docformatter>=1.7.7",
+    "mypy>=1.17.0",
+    "pre-commit>=4.2.0",
+    "ruff>=0.12.4",
+    "types-requests>=2.32.4.20250611",
+]
