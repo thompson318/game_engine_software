@@ -14,5 +14,4 @@ dev = [
     "mypy>=1.17.0",
     "pre-commit>=4.2.0",
     "ruff>=0.12.4",
-    "types-requests>=2.32.4.20250611",
 ]

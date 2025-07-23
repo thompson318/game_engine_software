@@ -10,6 +10,10 @@ repos:
     hooks:
       - id: mypy
         args: [--config-file=pyproject.toml]
+        additional_dependencies:
+          [
+            "types-requests",
+          ]
         files: \.py$
   # ----------
   # Formats docstrings to comply with PEP257

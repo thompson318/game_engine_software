@@ -1,5 +1,5 @@
 import json
-import requests  # type: ignore[import-untyped]
+import requests
 
 
 def get_url(url: str):
