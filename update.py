@@ -36,18 +36,28 @@ if __name__ == "__main__":
     game_engines = get_game_engines()
 
     games: dict = {"data": []}
-    for engine in game_engines:
-        print("processing " + engine.get("Name"))
+    for i, engine in enumerate(game_engines):
+        print(
+            "processing "
+            + engine.get("Name")
+            + " : "
+            + str(i)
+            + "/"
+            + str(len(game_engines))
+        )
         url, count = get_citations(engine.get("Name"))
-        game_count = "-"
-        if int(count) > 0:
-            url, game_count = get_citations(engine.get("Name") + "+game")
+        game_url, game_count = get_citations(engine.get("Name") + "+game")
+
+        if int(count) == 0:
+            game_count = "-"
+
         games.get("data", []).append(
             {
-                "name": engine.get("Name"),
-                "pubmed cites": count,
-                "pubmed game cites": game_count,
-                "pubmed url": url,
+                "Name": engine.get("Name"),
+                "PubMed citations": count,
+                "PubMed game citations": game_count,
+                "PubMed Link": url,
+                "PubMed Game Link": game_url,
             }
         )
 
@@ -56,6 +66,6 @@ if __name__ == "__main__":
 
     with open("game_engine_table.js", "w") as fileout:
         fileout.write(
-            "const game_engines = " + json.dumps(games, indent=2, sort_keys=True)
+            "const game_engines = " + json.dumps(games, indent=2, sort_keys=False)
         )
         fileout.write(script)
