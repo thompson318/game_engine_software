@@ -32,7 +32,8 @@ if __name__ == '__main__':
     for engine in game_engines:
         print ("processing " + engine.get('Name'))
         url, count = get_citations(engine.get('Name'))
-        games.get("data").append({ "name" : engine.get('Name'), "pubmed cites" : count, "pubmed url" : url})
+        game_url, game_count = get_citations(engine.get('Name') + '+game')
+        games.get("data").append({ "name" : engine.get('Name'), "pubmed cites" : count, "pubmed game cites" : game_count, "pubmed url" : url})
 
     with open("script.js", "r") as filein:
         script = filein.read()
