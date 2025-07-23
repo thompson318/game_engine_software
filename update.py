@@ -17,17 +17,25 @@ def get_game_engines():
     return body[0]
 
 
-def get_citations(engine_name: str):
+def get_citations_and_url(engine_name: str, skip_search: bool):
     """Searches database (pubmed) to get citations that may reference the
-    engine_name."""
+    engine_name.
+
+    :param engine_name: the search term to use
+    :param skip_search: we can skip the search and just return the url
+    """
     search_term = engine_name.replace(" ", "+")
     url = (
         'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term="'
         + search_term
         + '"'
     )
-    body = get_url(url)
-    count = body.get("esearchresult").get("count")
+    count = "-"
+
+    if not skip_search:
+        body = get_url(url)
+        count = body.get("esearchresult").get("count")
+
     human_url = 'https://pubmed.ncbi.nlm.nih.gov/?term="' + search_term + '"'
     return human_url, count
 
@@ -45,11 +53,16 @@ if __name__ == "__main__":
             + "/"
             + str(len(game_engines))
         )
-        url, count = get_citations(engine.get("Name"))
-        game_url, game_count = get_citations(engine.get("Name") + "+game")
+        url, count = get_citations_and_url(engine.get("Name"), False)
 
         if int(count) == 0:
-            game_count = "-"
+            game_url, game_count = get_citations_and_url(
+                engine.get("Name") + "+game", True
+            )
+        else:
+            game_url, game_count = get_citations_and_url(
+                engine.get("Name") + "+game", False
+            )
 
         games.get("data", []).append(
             {
