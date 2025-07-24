@@ -45,6 +45,7 @@ if __name__ == "__main__":
     except ValueError:
         papers_df = pd.DataFrame()
 
+    print(papers_df["DOI"])
     papers_dict = []
 
     # TODO should we use apply instead of iterating?
@@ -70,6 +71,21 @@ if __name__ == "__main__":
                 if art_id.get("idtype", "") == "doi":
                     doi = art_id.get("value")
 
+            if doi in papers_df["DOI"].values:
+                print(doi + " already present ")
+                # print (papers_df.loc[papers_df['DOI'] == doi])
+                # here we're trying to see if we've already added it for this engine. FIXME
+                if (
+                    game_engine.loc["Name"]
+                    not in papers_df.loc[papers_df["DOI"]].loc["Game Engines - Search"]
+                ):
+                    print("but not for this game engine")
+                    papers_df.loc[papers_df["DOI"]].loc["Game Engines - Search"].append(
+                        game_engine.loc["Name"]
+                    )
+                else:
+                    print("For this game engine")
+
             papers_dict.append(
                 {
                     "PMID": pmid,
@@ -78,7 +94,7 @@ if __name__ == "__main__":
                     "Citations": citations,
                     "Relevant": True,  # all relevant until checked otherwise
                     "Comment": "Not reviewed yet",  # Free text comment
-                    "Game Engine - Search": game_engine.loc["Name"],
+                    "Game Engines - Search": [game_engine.loc["Name"]],
                     "Game Engine - Actual": "Unknown",  # Update this after review
                 }
             )
