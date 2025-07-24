@@ -1,105 +1,89 @@
-import json
 import pandas as pd
+import os
+import time
 
 from game_engine_software.common import get_url
 
-def get_game_engines():
-    """Returns a list of game_engine dictionaries (currently derived from
-    wikipedia)"""
-    body = get_url(
-        "https://www.wikitable2json.com/api/List_of_game_engines?table=0&keyRows=1"
-    )
-    return body[0]
 
+def get_publication_summary(pmid: str, pm_key: str | None):
+    """Returns summary paper data and url from pubmed.
 
-def get_citations_and_url(engine_name: str, skip_search: bool, max_citations: int, second_term: str =""):
-    """Searches database (pubmed) to get citations that may reference the
-    engine_name.
-
-    :param engine_name: the search term to use
-    :param skip_search: we can skip the search and just return the url
+    :param pmid: the pubmed id
     """
-    search_term = engine_name.replace(" ", "-")
+    # without API key we can do 3 queries a second. With we can do 10.
     url = (
-        'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term="'
-        + search_term
-        + '"'
+        "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id="
+        + pmid
+        + "&retmode=json"
     )
-    human_url = 'https://pubmed.ncbi.nlm.nih.gov/?term="' + search_term + '"'
 
-    if len(second_term) > 0:
-        url = url + '+and+"' + second_term + '"'
-        human_url = human_url + '+and+"' + second_term + '"'
-    
-    # we can use retstart to get more than 20 citations
-    url = url + "&retmax = " + str(max_citations)
-    
-    count = "-"
-    paperIDs = []
-    if not skip_search:
-        body = get_url(url)
-        count = body.get("esearchresult").get("count")
-        paperIDs = body.get("esearchresult").get("idlist")
-    
-    return human_url, count, paperIDs
+    if pm_key is not None:
+        url = url + "&api_key" + pm_key
+
+    human_url = "https://pubmed.ncbi.nlm.nih.gov/" + pmid
+
+    body = get_url(url)
+
+    result = body.get("result", None)
+    if result is None:
+        if body.get("error", "") == "API rate limit exceeded":
+            raise IOError
+        raise ValueError("Result not found" + body)
+
+    if len(result.get("uids", [])) != 1:
+        raise ValueError("Unexpected number of query results:" + body)
+    return human_url, result.get(pmid)
 
 
 if __name__ == "__main__":
-    game_engines = get_game_engines()
+    pubmed_key = os.environ.get("PUBMED_API_KEY", None)
+    if pubmed_key is None:
+        print("PUBMED_API_KEY not found, performance will be reduced.")
+    game_engines_df = pd.read_json("data/game_engine.db")
+    try:
+        papers_df = pd.read_json("data/game_engine_papers.db")
+    except ValueError:
+        papers_df = pd.DataFrame()
 
-    games: dict = {"data": []}
+    papers_dict = []
 
-    games_df = pd.DataFrame()
+    # TODO should we use apply instead of iterating?
+    # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html
+    for index, game_engine in game_engines_df.iterrows():
+        api_throttle = 0.0
+        for pmid in game_engine.loc["Paper IDs"]:
+            try:
+                url, summary = get_publication_summary(pmid, pubmed_key)
+            except IOError:
+                print("Hit api limit, pause and try again")
+                time.sleep(1)
+                url, summary = get_publication_summary(pmid, pubmed_key)
+                api_throttle += 0.020
+            time.sleep(api_throttle)
 
-    max_citations = 100
-    for i, engine in enumerate(game_engines):
-        print(
-            "processing "
-            + engine.get("Name")
-            + " : "
-            + str(i)
-            + "/"
-            + str(len(game_engines))
-        )
-        url, count, paperIDs = get_citations_and_url(engine.get("Name"), False, max_citations)
-        
-        if int(count) > max_citations:
-            print("Found more than " + str(max_citations) + " for " + engine.get("Name") + "Only collecting first " +str(max_citations))
-        if int(count) == 0:
-            game_url, game_count, paperIDs = get_citations_and_url(
-                engine.get("Name"), True, max_citations, "game"
+            title = summary.get("title", "Title not found")
+            citations = summary.get("pmcrefcount", -1)
+
+            article_ids = summary.get("articleids", [])
+            doi = "doi not found"
+            for art_id in article_ids:
+                if art_id.get("idtype", "") == "doi":
+                    doi = art_id.get("value")
+
+            papers_dict.append(
+                {
+                    "PMID": pmid,
+                    "DOI": doi,
+                    "Title": title,
+                    "Citations": citations,
+                    "Relevant": True,  # all relevant until checked otherwise
+                    "Comment": "Not reviewed yet",  # Free text comment
+                    "Game Engine - Search": game_engine.loc["Name"],
+                    "Game Engine - Actual": "Unknown",  # Update this after review
+                }
             )
-        else:
-            game_url, game_count, paperIDs = get_citations_and_url(
-                engine.get("Name"), False, max_citations, "game"
-            )
+            print("Found " + title)
+            print("https://doi.org/" + doi)
 
-        games.get("data", []).append(
-            {
-                "Name": engine.get("Name"),
-                "PubMed citations": count,
-                "PubMed game citations": game_count,
-                "PubMed Link": url,
-                "PubMed Game Link": game_url,
-                "Paper IDs" : paperIDs
-            }
-        )
-    
-    # create a pandas data frame and save it as json to make human readable and editable
-    # TO DO - this script could just up date the database, then the creation of js could be done 
-    # elsewhere
-    games_df = pd.DataFrame (games)
-    games_df.to_json('data/game_engine.db', indent = 2)
-
-    # we don't want to show the paper IDs on our table
-    for game in games.get("data"):
-        del game['Paper IDs']
-
-    with open("script.js", "r") as filein:
-        script = filein.read()
-
-    with open("game_engine_table.js", "w") as fileout:
-        fileout.write(
-            "const game_engines = " + json.dumps(games, indent=2, sort_keys=False)
-        )
-        fileout.write(script)
+    papers_df = pd.DataFrame(papers_dict)
+    papers_df.to_json("data/game_engine_papers.db", indent=2)
