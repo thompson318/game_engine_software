@@ -37,6 +37,7 @@ def get_citations_and_url(
         url = url + '+and+"' + second_term + '"'
         human_url = human_url + '+and+"' + second_term + '"'
 
+    # TODO, this doesn't always return max_citations. It may return only 20
     url = url + "&retmax = " + str(max_citations)
 
     count = "-"
@@ -102,7 +103,7 @@ if __name__ == "__main__":
     # create a pandas data frame and save it as json to make human readable and editable
     # TO DO - this script could just up date the database, then the creation of js could be done
     # elsewhere
-    games_df = pd.DataFrame(games)
+    games_df = pd.DataFrame(games.get("data", []))
     games_df.to_json("data/game_engine.db", indent=2)
 
     # we don't want to show the paper IDs on our table
