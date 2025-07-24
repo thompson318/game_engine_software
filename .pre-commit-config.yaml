@@ -13,6 +13,7 @@ repos:
         additional_dependencies:
           [
             "types-requests",
+            "pandas-stubs",
           ]
         files: \.py$
   # ----------
