@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import time
+from typing import Tuple
 
 from game_engine_software.common import get_url
 
@@ -35,32 +36,28 @@ def get_publication_summary(pmid: str, pm_key: str | None):
     return human_url, result.get(pmid)
 
 
-def check_if_paper_already_present(doi: str, game_engine_name : str, papers_df : pd.DataFrame) -> pd.DataFrame:
-    """Checks if a paper is already in the data frame and for which search 
+def check_if_paper_already_present(
+    doi: str, game_engine_name: str, papers_df: pd.DataFrame
+) -> Tuple[bool, pd.DataFrame]:
+    """Checks if a paper is already in the data frame and for which search
     engines."""
+    if len(papers_df) == 0:
+        return False, papers_df
 
-    paper_df = papers_df[papers_df['DOI']== doi]
-    #.iloc[0]['Game Engines - Search']
-    if len(paper_df) == 0: # if no entries return false
+    paper_df = papers_df[papers_df["DOI"] == doi]
+    if len(paper_df) == 0:  # if no entries return false
         return False, papers_df
 
     if len(paper_df) == 1:
-        print(doi + " already present ")
-        game_engine_names = paper_df.iloc[0]['Game Engines - Search']
-        print (game_engine_names)
-                         #game_engine_names = papers_df[papers_df['DOI'] == doi].iloc[0]['Game Engines - Search']
-        if ( game_engine_name not in game_engine_names ):
-            print("but not for this game engine")
-            print(game_engine.loc["Name"] + " not in " + str(game_engine_names))
-            papers_df[papers_df['DOI'] == doi]['Game Engines - Search'].append(
-                game_engine.loc["Name"]
+        game_engine_names = paper_df.iloc[0]["Game Engines - Search"]
+        if game_engine_name not in game_engine_names:
+            game_engine_names.append(game_engine_name)
+            papers_df[papers_df["DOI"] == doi].iloc[0]["Game Engines - Search"] = (
+                game_engine_names
             )
-        else:
-            print("For this game engine")
         return True, papers_df
 
     raise ValueError("There appear to be multiple occurences of DOI " + doi)
-
 
 
 if __name__ == "__main__":
@@ -73,7 +70,7 @@ if __name__ == "__main__":
     except ValueError:
         papers_df = pd.DataFrame()
 
-    papers_dict = []
+    new_papers_dict = []
 
     # TODO should we use apply instead of iterating?
     # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html
@@ -97,10 +94,12 @@ if __name__ == "__main__":
             for art_id in article_ids:
                 if art_id.get("idtype", "") == "doi":
                     doi = art_id.get("value")
-            
-            already_present, papers_df = check_if_paper_already_present(doi, game_engine.loc["Name"], papers_df)
+
+            already_present, papers_df = check_if_paper_already_present(
+                doi, game_engine.loc["Name"], papers_df
+            )
             if not already_present:
-                papers_dict.append(
+                new_papers_dict.append(
                     {
                         "PMID": pmid,
                         "DOI": doi,
@@ -112,9 +111,9 @@ if __name__ == "__main__":
                         "Game Engine - Actual": "Unknown",  # Update this after review
                     }
                 )
-            
-            print("Found " + title)
+
+            print("Found new " + title)
             print("https://doi.org/" + doi)
 
-    papers_df = pd.DataFrame(papers_dict)
+    papers_df = pd.concat([papers_df, pd.DataFrame(new_papers_dict)], ignore_index=True)
     papers_df.to_json("data/game_engine_papers.db", indent=2)
