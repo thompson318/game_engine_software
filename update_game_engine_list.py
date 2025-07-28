@@ -67,19 +67,8 @@ if __name__ == "__main__":
             + "/"
             + str(len(game_engines))
         )
-        url, count, paperIDs = get_citations_and_url(
-            engine.get("Name"), False, max_citations
-        )
+        url, count, _ = get_citations_and_url(engine.get("Name"), False, max_citations)
 
-        if int(count) > max_citations:
-            print(
-                "Found more than "
-                + str(max_citations)
-                + " for "
-                + engine.get("Name")
-                + "Only collecting first "
-                + str(max_citations)
-            )
         if int(count) == 0:
             game_url, game_count, paperIDs = get_citations_and_url(
                 engine.get("Name"), True, max_citations, "game"
@@ -88,6 +77,16 @@ if __name__ == "__main__":
             game_url, game_count, paperIDs = get_citations_and_url(
                 engine.get("Name"), False, max_citations, "game"
             )
+
+            if int(game_count) > len(paperIDs):
+                print(
+                    "Found more than "
+                    + str(max_citations)
+                    + " for "
+                    + engine.get("Name")
+                    + "Only collected first "
+                    + str(len(paperIDs))
+                )
 
         games.get("data", []).append(
             {
