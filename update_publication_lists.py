@@ -10,13 +10,13 @@ def get_publication_summary(pmid: str, pm_key: str | None):
 
     :param pmid: the pubmed id
     """
-    # without API key we can do 3 queries a second. With we can do 10.
     url = (
         "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id="
         + pmid
         + "&retmode=json"
     )
 
+    # without API key we can do 3 queries a second. With we can do 10.
     if pm_key is not None:
         url = url + "&api_key" + pm_key
 
@@ -35,6 +35,34 @@ def get_publication_summary(pmid: str, pm_key: str | None):
     return human_url, result.get(pmid)
 
 
+def check_if_paper_already_present(doi: str, game_engine_name : str, papers_df : pd.DataFrame) -> pd.DataFrame:
+    """Checks if a paper is already in the data frame and for which search 
+    engines."""
+
+    paper_df = papers_df[papers_df['DOI']== doi]
+    #.iloc[0]['Game Engines - Search']
+    if len(paper_df) == 0: # if no entries return false
+        return False, papers_df
+
+    if len(paper_df) == 1:
+        print(doi + " already present ")
+        game_engine_names = paper_df.iloc[0]['Game Engines - Search']
+        print (game_engine_names)
+                         #game_engine_names = papers_df[papers_df['DOI'] == doi].iloc[0]['Game Engines - Search']
+        if ( game_engine_name not in game_engine_names ):
+            print("but not for this game engine")
+            print(game_engine.loc["Name"] + " not in " + str(game_engine_names))
+            papers_df[papers_df['DOI'] == doi]['Game Engines - Search'].append(
+                game_engine.loc["Name"]
+            )
+        else:
+            print("For this game engine")
+        return True, papers_df
+
+    raise ValueError("There appear to be multiple occurences of DOI " + doi)
+
+
+
 if __name__ == "__main__":
     pubmed_key = os.environ.get("PUBMED_API_KEY", None)
     if pubmed_key is None:
@@ -45,7 +73,6 @@ if __name__ == "__main__":
     except ValueError:
         papers_df = pd.DataFrame()
 
-    print(papers_df["DOI"])
     papers_dict = []
 
     # TODO should we use apply instead of iterating?
@@ -70,34 +97,22 @@ if __name__ == "__main__":
             for art_id in article_ids:
                 if art_id.get("idtype", "") == "doi":
                     doi = art_id.get("value")
-
-            if doi in papers_df["DOI"].values:
-                print(doi + " already present ")
-                # print (papers_df.loc[papers_df['DOI'] == doi])
-                # here we're trying to see if we've already added it for this engine. FIXME
-                if (
-                    game_engine.loc["Name"]
-                    not in papers_df.loc[papers_df["DOI"]].loc["Game Engines - Search"]
-                ):
-                    print("but not for this game engine")
-                    papers_df.loc[papers_df["DOI"]].loc["Game Engines - Search"].append(
-                        game_engine.loc["Name"]
-                    )
-                else:
-                    print("For this game engine")
-
-            papers_dict.append(
-                {
-                    "PMID": pmid,
-                    "DOI": doi,
-                    "Title": title,
-                    "Citations": citations,
-                    "Relevant": True,  # all relevant until checked otherwise
-                    "Comment": "Not reviewed yet",  # Free text comment
-                    "Game Engines - Search": [game_engine.loc["Name"]],
-                    "Game Engine - Actual": "Unknown",  # Update this after review
-                }
-            )
+            
+            already_present, papers_df = check_if_paper_already_present(doi, game_engine.loc["Name"], papers_df)
+            if not already_present:
+                papers_dict.append(
+                    {
+                        "PMID": pmid,
+                        "DOI": doi,
+                        "Title": title,
+                        "Citations": citations,
+                        "Relevant": True,  # all relevant until checked otherwise
+                        "Comment": "Not reviewed yet",  # Free text comment
+                        "Game Engines - Search": [game_engine.loc["Name"]],
+                        "Game Engine - Actual": "Unknown",  # Update this after review
+                    }
+                )
+            
             print("Found " + title)
             print("https://doi.org/" + doi)
 
