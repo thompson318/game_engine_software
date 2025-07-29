@@ -1,4 +1,3 @@
-import json
 import pandas as pd
 
 from game_engine_software.common import get_url
@@ -100,20 +99,5 @@ if __name__ == "__main__":
         )
 
     # create a pandas data frame and save it as json to make human readable and editable
-    # TO DO - this script could just up date the database, then the creation of js could be done
-    # elsewhere
     games_df = pd.DataFrame(games.get("data", []))
     games_df.to_json("data/game_engine.db", indent=2, orient="records")
-
-    # we don't want to show the paper IDs on our table
-    for game in games.get("data", []):
-        del game["Paper IDs"]
-
-    with open("script.js", "r") as filein:
-        script = filein.read()
-
-    with open("game_engine_table.js", "w") as fileout:
-        fileout.write(
-            "const game_engines = " + json.dumps(games, indent=2, sort_keys=False)
-        )
-        fileout.write(script)
