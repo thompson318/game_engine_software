@@ -44,7 +44,7 @@ const game_engines = {
     },
     {
       "Name": "Anvil",
-      "PubMed citations": "2327",
+      "PubMed citations": "2329",
       "PubMed game citations": "2",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Anvil\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Anvil\"+and+\"game\""
@@ -163,7 +163,7 @@ const game_engines = {
     },
     {
       "Name": "Construct",
-      "PubMed citations": "222273",
+      "PubMed citations": "222436",
       "PubMed game citations": "533",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Construct\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Construct\"+and+\"game\""
@@ -282,7 +282,7 @@ const game_engines = {
     },
     {
       "Name": "EGO",
-      "PubMed citations": "20549",
+      "PubMed citations": "20550",
       "PubMed game citations": "68",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"EGO\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"EGO\"+and+\"game\""
@@ -296,7 +296,7 @@ const game_engines = {
     },
     {
       "Name": "Enforce",
-      "PubMed citations": "6567",
+      "PubMed citations": "6571",
       "PubMed game citations": "90",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Enforce\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Enforce\"+and+\"game\""
@@ -366,7 +366,7 @@ const game_engines = {
     },
     {
       "Name": "Frostbite",
-      "PubMed citations": "2459",
+      "PubMed citations": "2460",
       "PubMed game citations": "1",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Frostbite\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Frostbite\"+and+\"game\""
@@ -429,7 +429,7 @@ const game_engines = {
     },
     {
       "Name": "Godot",
-      "PubMed citations": "193",
+      "PubMed citations": "195",
       "PubMed game citations": "0",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Godot\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Godot\"+and+\"game\""
@@ -590,7 +590,7 @@ const game_engines = {
     },
     {
       "Name": "Jade",
-      "PubMed citations": "2705",
+      "PubMed citations": "2707",
       "PubMed game citations": "0",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Jade\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Jade\"+and+\"game\""
@@ -674,15 +674,15 @@ const game_engines = {
     },
     {
       "Name": "LyN",
-      "PubMed citations": "3833",
+      "PubMed citations": "3834",
       "PubMed game citations": "5",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"LyN\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"LyN\"+and+\"game\""
     },
     {
       "Name": "L\u00d6VE",
-      "PubMed citations": "24183",
-      "PubMed game citations": "107",
+      "PubMed citations": "24195",
+      "PubMed game citations": "108",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"L\u00d6VE\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"L\u00d6VE\"+and+\"game\""
     },
@@ -884,7 +884,7 @@ const game_engines = {
     },
     {
       "Name": "Q",
-      "PubMed citations": "231819",
+      "PubMed citations": "231974",
       "PubMed game citations": "446",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Q\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Q\"+and+\"game\""
@@ -940,7 +940,7 @@ const game_engines = {
     },
     {
       "Name": "SAGE",
-      "PubMed citations": "20148",
+      "PubMed citations": "20172",
       "PubMed game citations": "50",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"SAGE\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"SAGE\"+and+\"game\""
@@ -954,7 +954,7 @@ const game_engines = {
     },
     {
       "Name": "Scratch",
-      "PubMed citations": "18277",
+      "PubMed citations": "18295",
       "PubMed game citations": "43",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Scratch\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Scratch\"+and+\"game\""
@@ -996,7 +996,7 @@ const game_engines = {
     },
     {
       "Name": "Source",
-      "PubMed citations": "695926",
+      "PubMed citations": "696301",
       "PubMed game citations": "1284",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Source\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Source\"+and+\"game\""
@@ -1045,7 +1045,7 @@ const game_engines = {
     },
     {
       "Name": "Stride",
-      "PubMed citations": "10232",
+      "PubMed citations": "10241",
       "PubMed game citations": "38",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Stride\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Stride\"+and+\"game\""
@@ -1066,7 +1066,7 @@ const game_engines = {
     },
     {
       "Name": "TOSHI",
-      "PubMed citations": "689",
+      "PubMed citations": "690",
       "PubMed game citations": "0",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"TOSHI\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"TOSHI\"+and+\"game\""
@@ -1108,7 +1108,7 @@ const game_engines = {
     },
     {
       "Name": "Unity",
-      "PubMed citations": "22732",
+      "PubMed citations": "22751",
       "PubMed game citations": "140",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Unity\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Unity\"+and+\"game\""
@@ -1150,8 +1150,8 @@ const game_engines = {
     },
     {
       "Name": "Vision",
-      "PubMed citations": "279771",
-      "PubMed game citations": "608",
+      "PubMed citations": "279973",
+      "PubMed game citations": "609",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Vision\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"Vision\"+and+\"game\""
     },
@@ -1220,8 +1220,8 @@ const game_engines = {
     },
     {
       "Name": "S&box",
-      "PubMed citations": "15746536",
-      "PubMed game citations": "15746536",
+      "PubMed citations": "15752617",
+      "PubMed game citations": "15752617",
       "PubMed Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"S&box\"",
       "PubMed Game Link": "https://pubmed.ncbi.nlm.nih.gov/?term=\"S&box\"+and+\"game\""
     },

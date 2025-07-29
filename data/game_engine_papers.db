@@ -1,2698 +1,3141 @@
-{
-  "PMID":{
-    "0":"25159628",
-    "1":"12893718",
-    "2":"40682927",
-    "3":"40624251",
-    "4":"40620765",
-    "5":"40594249",
-    "6":"40593151",
-    "7":"40554295",
-    "8":"40512827",
-    "9":"40509829",
-    "10":"40344199",
-    "11":"40315129",
-    "12":"40173437",
-    "13":"40030717",
-    "14":"40030329",
-    "15":"40019291",
-    "16":"40011838",
-    "17":"40010014",
-    "18":"39991207",
-    "19":"39959471",
-    "20":"39777053",
-    "21":"39769093",
-    "22":"15943084",
-    "23":"40251205",
-    "24":"40030982",
-    "25":"35874390",
-    "26":"35250667",
-    "27":"37790900",
-    "28":"34299809",
-    "29":"33865431",
-    "30":"33796008",
-    "31":"32570586",
-    "32":"32530370",
-    "33":"32463316",
-    "34":"30158454",
-    "35":"30142302",
-    "36":"28222114",
-    "37":"27247687",
-    "38":"26779106",
-    "39":"25999888",
-    "40":"25698700",
-    "41":"25552567",
-    "42":"25498787",
-    "43":"40644271",
-    "44":"40438542",
-    "45":"40253548",
-    "46":"40048958",
-    "47":"38318044",
-    "48":"38216621",
-    "49":"37939469",
-    "50":"37593633",
-    "51":"37079207",
-    "52":"37055546",
-    "53":"38603448",
-    "54":"36442747",
-    "55":"35866176",
-    "56":"35810777",
-    "57":"35556180",
-    "58":"35338188",
-    "59":"34996005",
-    "60":"34969840",
-    "61":"34964895",
-    "62":"34741826",
-    "63":"37465264",
-    "64":"20071262",
-    "65":"35944270",
-    "66":"35421985",
-    "67":"35323358",
-    "68":"28526289",
-    "69":"23413274",
-    "70":"17204586",
-    "71":"40635016",
-    "72":"40626658",
-    "73":"40559684",
-    "74":"40459935",
-    "75":"39934589",
-    "76":"39457831",
-    "77":"39092077",
-    "78":"38916098",
-    "79":"38180973",
-    "80":"38070886",
-    "81":"38025950",
-    "82":"37793224",
-    "83":"37754053",
-    "84":"37439275",
-    "85":"37366745",
-    "86":"37300239",
-    "87":"37239304",
-    "88":"37138539",
-    "89":"37114917",
-    "90":"38764530",
-    "91":"27139405",
-    "92":"23549683",
-    "93":"19377177",
-    "94":"34960514",
-    "95":"40592166",
-    "96":"40575736",
-    "97":"40512852",
-    "98":"40408327",
-    "99":"40388689",
-    "100":"40388477",
-    "101":"40372990",
-    "102":"40338945",
-    "103":"40333488",
-    "104":"40311528",
-    "105":"40308813",
-    "106":"40283084",
-    "107":"40273071",
-    "108":"40272428",
-    "109":"40250019",
-    "110":"40233403",
-    "111":"40070897",
-    "112":"40070127",
-    "113":"40053708",
-    "114":"40022295",
-    "115":"40475756",
-    "116":"38761770",
-    "117":"38446183",
-    "118":"40677251",
-    "119":"40053743",
-    "120":"40007197",
-    "121":"39718632",
-    "122":"39702488",
-    "123":"39474474",
-    "124":"39441503",
-    "125":"39429545",
-    "126":"38933688",
-    "127":"38903195",
-    "128":"38333516",
-    "129":"38277191",
-    "130":"37486882",
-    "131":"37196763",
-    "132":"37096383",
-    "133":"37038512",
-    "134":"36865753",
-    "135":"36643208",
-    "136":"35972323",
-    "137":"35666863",
-    "138":"39587220",
-    "139":"39460200",
-    "140":"39409396",
-    "141":"39259628",
-    "142":"39084887",
-    "143":"38688980",
-    "144":"38585481",
-    "145":"38450588",
-    "146":"38275977",
-    "147":"37547229",
-    "148":"37286649",
-    "149":"37270469",
-    "150":"36871586",
-    "151":"36454847",
-    "152":"36189682",
-    "153":"36125924",
-    "154":"35731749",
-    "155":"35445898",
-    "156":"35044578",
-    "157":"34780244",
-    "158":"40702266",
-    "159":"40692971",
-    "160":"40668896",
-    "161":"40657727",
-    "162":"40638062",
-    "163":"40635077",
-    "164":"40632724",
-    "165":"40630505",
-    "166":"40616885",
-    "167":"40607243",
-    "168":"40606692",
-    "169":"40594148",
-    "170":"40577545",
-    "171":"40577490",
-    "172":"40574996",
-    "173":"40532004",
-    "174":"40498691",
-    "175":"40460525",
-    "176":"40450541",
-    "177":"40457563",
-    "178":"23985184",
-    "179":"40489391",
-    "180":"39946363",
-    "181":"39618490",
-    "182":"39524323",
-    "183":"39324501",
-    "184":"39120203",
-    "185":"39013927",
-    "186":"38997475",
-    "187":"38601574",
-    "188":"38123606",
-    "189":"37802081",
-    "190":"37648695",
-    "191":"36254725",
-    "192":"35174323",
-    "193":"34631254",
-    "194":"34134606",
-    "195":"32935627",
-    "196":"31905407",
-    "197":"31809646",
-    "198":"31779179",
-    "199":"37286971",
-    "200":"40579384",
-    "201":"40569695",
-    "202":"40569313",
-    "203":"40566173",
-    "204":"40564398",
-    "205":"40532200",
-    "206":"40489616",
-    "207":"40438542",
-    "208":"40423025",
-    "209":"40408327",
-    "210":"40270417",
-    "211":"40153445",
-    "212":"40126159",
-    "213":"40103644",
-    "214":"40070674",
-    "215":"40039744",
-    "216":"39834839",
-    "217":"39764571",
-    "218":"39538726",
-    "219":"39278144",
-    "220":"40392648",
-    "221":"40328184",
-    "222":"39892353",
-    "223":"39820059",
-    "224":"38496473",
-    "225":"37647108",
-    "226":"32267886",
-    "227":"26485979",
-    "228":"40700175",
-    "229":"40690340",
-    "230":"40685494",
-    "231":"40595874",
-    "232":"40558810",
-    "233":"40548225",
-    "234":"40542370",
-    "235":"40531898",
-    "236":"40474658",
-    "237":"40440164",
-    "238":"40438470",
-    "239":"40424615",
-    "240":"40423025",
-    "241":"40374701",
-    "242":"40354947",
-    "243":"40346458",
-    "244":"40316556",
-    "245":"40214829",
-    "246":"40188286",
-    "247":"40172087",
-    "248":"40388552",
-    "249":"40712208",
-    "250":"40712206",
-    "251":"40712205",
-    "252":"40712204",
-    "253":"40712203",
-    "254":"40712200",
-    "255":"40712199",
-    "256":"40712198",
-    "257":"40712190",
-    "258":"40712184",
-    "259":"40712181",
-    "260":"40712180",
-    "261":"40712171",
-    "262":"40712167",
-    "263":"40712166",
-    "264":"40712165",
-    "265":"40712161",
-    "266":"40712159",
-    "267":"40712156"
-  },
-  "DOI":{
-    "0":"10.1007\/s00464-014-3768-3",
-    "1":"10.1136\/bjsm.37.4.325",
-    "2":"10.1016\/j.actpsy.2025.105252",
-    "3":"10.1038\/s41598-025-08636-5",
-    "4":"10.5334\/pb.1365",
-    "5":"10.1038\/s41598-025-05977-z",
-    "6":"10.1038\/s41598-025-08836-z",
-    "7":"10.1016\/j.neunet.2025.107692",
-    "8":"10.1371\/journal.pone.0322888",
-    "9":"10.19723\/j.issn.1671-167X.2025.03.015",
-    "10":"10.2196\/59515",
-    "11":"10.1063\/5.0270353",
-    "12":"10.2196\/66167",
-    "13":"10.1109\/TNNLS.2024.3516693",
-    "14":"10.1109\/TVCG.2024.3507952",
-    "15":"10.1021\/acs.analchem.4c06801",
-    "16":"10.1186\/s12909-025-06643-8",
-    "17":"10.1016\/j.yebeh.2025.110339",
-    "18":"10.1016\/j.heliyon.2025.e42424",
-    "19":"10.1099\/acmi.0.000900.v3",
-    "20":"10.1080\/21642850.2024.2444245",
-    "21":"10.3390\/ijms252413328",
-    "22":"10.1109\/mcg.2005.67",
-    "23":"10.1038\/s41598-025-96895-7",
-    "24":"10.1109\/TPAMI.2025.3526936",
-    "25":"10.3389\/fpsyg.2022.918688",
-    "26":"10.3389\/fpsyt.2022.813969",
-    "27":"10.1038\/s42256-022-00520-5",
-    "28":"10.3390\/ijerph18147351",
-    "29":"10.1186\/s13034-021-00369-3",
-    "30":"10.3389\/fnins.2021.638652",
-    "31":"10.3233\/SHTI200369",
-    "32":"10.1080\/02791072.2020.1773585",
-    "33":"10.1521\/prev.2020.107.2.175",
-    "34":"10.3390\/ijerph15091866",
-    "35":"10.1080\/00224545.2018.1505706",
-    "36":"10.1371\/journal.pone.0171472",
-    "37":"10.5964\/ejop.v11i4.934",
-    "38":"10.3389\/fpsyg.2015.02008",
-    "39":"10.3389\/fpsyg.2015.00572",
-    "40":"10.1093\/scan\/nsv020",
-    "41":"10.1093\/scan\/nsu154",
-    "42":"10.1016\/j.biopsycho.2014.11.011",
-    "43":"10.1109\/ICORR66766.2025.11062942",
-    "44":"10.1098\/rsos.250704",
-    "45":"10.1007\/s00246-025-03862-0",
-    "46":"10.1016\/j.copsyc.2025.102022",
-    "47":"10.1016\/j.heliyon.2024.e24884",
-    "48":"10.1038\/s41598-023-50414-8",
-    "49":"10.1016\/j.jenvman.2023.119449",
-    "50":"10.1016\/j.heliyon.2023.e18850",
-    "51":"10.1007\/s13280-023-01863-y",
-    "52":"10.1038\/s41598-023-33167-2",
-    "53":"10.1177\/00178969221147609",
-    "54":"10.1016\/j.neuroscience.2022.11.023",
-    "55":"10.1002\/cpe.5511",
-    "56":"10.1016\/j.jtbi.2022.111211",
-    "57":"10.1007\/s00285-022-01758-8",
-    "58":"10.1038\/s41598-022-08750-8",
-    "59":"10.1016\/j.addbeh.2021.107229",
-    "60":"10.1073\/pnas.2112521118",
-    "61":"10.1093\/scan\/nsab124",
-    "62":"10.1016\/j.jecp.2021.105303",
-    "63":"10.21980\/J8J343",
-    "64":"10.1109\/TITB.2009.2038995",
-    "65":"10.1089\/g4h.2022.0046",
-    "66":"10.1186\/s12913-022-07801-0",
-    "67":"10.3390\/curroncol29030158",
-    "68":"10.1016\/j.jhevol.2017.03.002",
-    "69":"10.1177\/0363546513476265",
-    "70":"10.1177\/0363546506293900",
-    "71":"10.1186\/s40359-025-02865-z",
-    "72":"10.1080\/02640414.2025.2526290",
-    "73":"10.3390\/sports13060172",
-    "74":"10.1556\/2006.2025.00044",
-    "75":"10.1007\/s10508-025-03082-w",
-    "76":"10.3390\/bs14100959",
-    "77":"10.3389\/fsoc.2024.1412154",
-    "78":"10.1097\/SLA.0000000000006414",
-    "79":"10.1371\/journal.pone.0288330",
-    "80":"10.1136\/bmjopen-2023-077022",
-    "81":"10.3897\/zookeys.1183.111330",
-    "82":"10.1016\/j.actpsy.2023.104049",
-    "83":"10.3390\/bs13090775",
-    "84":"10.1111\/tops.12683",
-    "85":"10.3390\/bs13060494",
-    "86":"10.1177\/19322968231179730",
-    "87":"10.3390\/brainsci13050833",
-    "88":"10.1177\/19322968231171136",
-    "89":"10.1177\/19322968231171586",
-    "90":"10.5152\/pcp.2023.22500",
-    "91":"doi not found",
-    "92":"10.3758\/s13428-013-0322-5",
-    "93":"doi not found",
-    "94":"10.3390\/s21248414",
-    "95":"10.1016\/j.jenvman.2025.126335",
-    "96":"10.18332\/tid\/203937",
-    "97":"10.1126\/sciadv.adt5743",
-    "98":"10.1371\/journal.pone.0318372",
-    "99":"10.1080\/02701367.2025.2496263",
-    "100":"10.1371\/journal.pone.0323978",
-    "101":"10.1371\/journal.pone.0320777",
-    "102":"10.1063\/5.0266460",
-    "103":"10.3390\/ma18081813",
-    "104":"10.1016\/j.plaphy.2025.109948",
-    "105":"10.1177\/20552076251339263",
-    "106":"10.3390\/life15040529",
-    "107":"10.1371\/journal.pone.0319953",
-    "108":"10.1080\/02701367.2025.2488847",
-    "109":"10.1016\/j.aap.2025.108034",
-    "110":"10.1063\/5.0267846",
-    "111":"10.3389\/fpsyg.2025.1524645",
-    "112":"10.1177\/17470218251329230",
-    "113":"10.2196\/64004",
-    "114":"10.1177\/17470218251326501",
-    "115":"10.3389\/fnbeh.2025.1561548",
-    "116":"10.1016\/j.comppsych.2024.152500",
-    "117":"10.1097\/MOP.0000000000001341",
-    "118":"10.1177\/30502225251357044",
-    "119":"10.2196\/54075",
-    "120":"10.1111\/pcn.13804",
-    "121":"10.1007\/s00484-024-02827-x",
-    "122":"10.1038\/d41586-024-04205-4",
-    "123":"10.1002\/ece3.70213",
-    "124":"10.1007\/s10802-024-01259-w",
-    "125":"10.1177\/23779608241290683",
-    "126":"10.1111\/acv.12899",
-    "127":"10.1177\/23779608241256998",
-    "128":"10.1177\/2050313X241229859",
-    "129":"10.2196\/44029",
-    "130":"10.7589\/JWD-D-22-00164",
-    "131":"10.1016\/j.mcpro.2023.100569",
-    "132":"10.1111\/mec.16960",
-    "133":"10.1002\/ece3.9933",
-    "134":"10.1177\/23779608231158158",
-    "135":"10.1177\/20503121221147842",
-    "136":"10.1111\/mec.16658",
-    "137":"10.1073\/pnas.2200016119",
-    "138":"10.1038\/s41598-024-80554-4",
-    "139":"10.3390\/s24206720",
-    "140":"10.3390\/s24196358",
-    "141":"10.1109\/TVCG.2024.3456347",
-    "142":"10.6224\/JN.202408_71(4).02",
-    "143":"10.1038\/s41598-024-60791-3",
-    "144":"10.3389\/fpsyt.2024.1377231",
-    "145":"10.1002\/brb3.3416",
-    "146":"10.3390\/jintelligence12010001",
-    "147":"10.3389\/frai.2023.804682",
-    "148":"10.1038\/s41586-023-06004-9",
-    "149":"10.1007\/s10899-023-10216-z",
-    "150":"10.1098\/rstb.2021.0484",
-    "151":"10.1126\/science.add4679",
-    "152":"10.1080\/02699931.2022.2128064",
-    "153":"10.1556\/2006.2022.00063",
-    "154":"10.1109\/TCYB.2022.3179950",
-    "155":"10.1007\/s10899-022-10125-7",
-    "156":"10.1007\/s10899-021-10103-5",
-    "157":"10.1037\/xlm0001071",
-    "158":"10.1038\/s44271-025-00292-9",
-    "159":"10.1002\/ece3.71573",
-    "160":"10.1126\/scirobotics.adt3093",
-    "161":"10.7554\/eLife.104008",
-    "162":"10.1007\/s13280-025-02219-4",
-    "163":"10.1186\/s13567-025-01563-3",
-    "164":"10.1371\/journal.pone.0326928",
-    "165":"10.1177\/23259671251352199",
-    "166":"10.1016\/j.neunet.2025.107803",
-    "167":"10.1177\/23259671241312651",
-    "168":"doi not found",
-    "169":"10.1038\/s41598-025-05316-2",
-    "170":"10.1121\/10.0036888",
-    "171":"10.1371\/journal.pntd.0012893",
-    "172":"10.17159\/2078-516X\/2025\/v37i1a19947",
-    "173":"10.1126\/sciadv.adu7743",
-    "174":"10.1371\/journal.pone.0325462",
-    "175":"10.1016\/j.jenvman.2025.126069",
-    "176":"10.1111\/cobi.70056",
-    "177":"10.1017\/S1368980025100487",
-    "178":"10.5993\/AJHB.37.3.10",
-    "179":"10.1519\/JSC.0000000000005145",
-    "180":"10.1371\/journal.pone.0317414",
-    "181":"10.1021\/acs.chemmater.4c02351",
-    "182":"10.1177\/23259671241274137",
-    "183":"10.1177\/03635465241279406",
-    "184":"10.3390\/healthcare12151500",
-    "185":"10.1038\/s41598-024-66727-1",
-    "186":"10.1038\/s41371-024-00932-3",
-    "187":"10.1016\/j.heliyon.2024.e28901",
-    "188":"10.1038\/s41598-023-49382-w",
-    "189":"10.1055\/a-2134-3456",
-    "190":"10.1038\/s41598-023-41290-3",
-    "191":"10.1080\/14763141.2022.2133006",
-    "192":"10.3389\/fspor.2021.789321",
-    "193":"10.26603\/001c.28086",
-    "194":"10.1080\/14763141.2021.1941229",
-    "195":"10.1080\/02640414.2020.1816287",
-    "196":"10.1055\/a-1062-6475",
-    "197":"10.1080\/02640414.2019.1699987",
-    "198":"10.3390\/nu11122880",
-    "199":"10.1186\/s12909-023-04231-2",
-    "200":"10.1002\/ase.70086",
-    "201":"10.1556\/2006.2025.00057",
-    "202":"10.1007\/s11548-025-03462-6",
-    "203":"10.3390\/e27060586",
-    "204":"10.3390\/bioengineering12060581",
-    "205":"10.2196\/73009",
-    "206":"10.1073\/pnas.2422779122",
-    "207":"10.1098\/rsos.250704",
-    "208":"10.3390\/jimaging11050168",
-    "209":"10.1371\/journal.pone.0318372",
-    "210":"10.3233\/SHTI250193",
-    "211":"10.1371\/journal.pone.0319385",
-    "212":"10.1089\/g4h.2023.0194",
-    "213":"10.1177\/20552076251323989",
-    "214":"10.1007\/s11571-025-10229-x",
-    "215":"10.1109\/EMBC53108.2024.10782637",
-    "216":"10.3389\/fdgth.2024.1479544",
-    "217":"10.1016\/j.eclinm.2024.102798",
-    "218":"10.1364\/OE.520168",
-    "219":"10.1016\/j.pedn.2024.09.008",
-    "220":"10.1109\/TNNLS.2025.3567001",
-    "221":"10.1016\/j.jflm.2025.102865",
-    "222":"10.1016\/j.neunet.2025.107207",
-    "223":"10.1371\/journal.pone.0308848",
-    "224":"10.1101\/2023.12.08.570879",
-    "225":"10.2196\/46398",
-    "226":"10.1371\/journal.pone.0231152",
-    "227":"doi not found",
-    "228":"10.3390\/jfmk10030239",
-    "229":"10.1109\/TNSRE.2025.3591104",
-    "230":"10.1007\/s13346-025-01925-6",
-    "231":"10.1038\/s41598-025-05462-7",
-    "232":"10.3390\/jintelligence13060060",
-    "233":"10.5662\/wjm.v15.i2.100937",
-    "234":"10.1186\/s13063-025-08933-4",
-    "235":"10.1371\/journal.pone.0324862",
-    "236":"10.1111\/opo.13534",
-    "237":"10.1167\/iovs.66.5.45",
-    "238":"10.1056\/AIcs2400510",
-    "239":"10.2196\/73135",
-    "240":"10.3390\/jimaging11050168",
-    "241":"10.1038\/s41598-025-96671-7",
-    "242":"10.1016\/j.survophthal.2025.05.001",
-    "243":"10.1186\/s12859-025-06136-x",
-    "244":"10.1038\/s41598-025-00279-w",
-    "245":"10.1007\/s40123-025-01117-y",
-    "246":"10.1007\/s00417-025-06816-7",
-    "247":"10.1177\/10225536251331664",
-    "248":"doi not found",
-    "249":"10.1016\/j.yebeh.2025.110619",
-    "250":"10.1016\/j.yebeh.2025.110618",
-    "251":"10.1016\/j.yebeh.2025.110601",
-    "252":"10.1016\/j.yebeh.2025.110616",
-    "253":"10.1016\/j.yebeh.2025.110575",
-    "254":"10.1016\/j.clgc.2025.102395",
-    "255":"10.1016\/j.jcv.2025.105835",
-    "256":"10.1016\/j.chiabu.2025.107600",
-    "257":"10.1016\/j.schres.2025.07.018",
-    "258":"10.1016\/j.cognition.2025.106267",
-    "259":"10.1016\/j.ebiom.2025.105863",
-    "260":"10.1016\/j.clinph.2025.2110938",
-    "261":"10.3171\/2025.3.JNS242811",
-    "262":"10.3171\/2025.4.PEDS24670",
-    "263":"10.3171\/2025.4.JNS25438",
-    "264":"10.3171\/2025.3.PEDS24605",
-    "265":"10.1021\/jasms.5c00145",
-    "266":"10.2196\/72931",
-    "267":"10.1182\/blood.2025028383"
-  },
-  "Title":{
-    "0":"Extending the reach of stapled anastomosis with a prepared OrVil\u2122 device in laparoscopic oesophageal and gastric cancer surgery.",
-    "1":"Evaluation of cricket helmet performance and comparison with baseball and ice hockey helmets.",
-    "2":"Evaluating planning through play: Exploring the use of mini games to assess planning abilities.",
-    "3":"An adaptive dynamics framework for microbial ecology and evolution.",
-    "4":"Psychometric Validation of the Gaming Disorder Scale for Adolescents (GADIS-A) in Dutch Among Flemish Adolescents.",
-    "5":"Fuzzy cooperative game analysis within the international railway freight coalition framework.",
-    "6":"Construction of evolutionary stability and signal game model for privacy protection in the internet of things.",
-    "7":"Counterfactual value decomposition for cooperative multi-agent reinforcement learning.",
-    "8":"Complexity analysis of a closed-loop supply chain for power battery recycling under government subsidies.",
-    "9":"[Three-party game and simulation analysis of health-related information quality regulation in public health emergencies].",
-    "10":"Perceptions Toward an Attentional Bias Modification Mobile Game Among Individuals With Low Socioeconomic Status Who Smoke: Qualitative Study.",
-    "11":"Evolutionary game dynamics of index insurance with refund or non-refund risk sharing mechanism.",
-    "12":"Digital Ergonomics of NavegApp, a Novel Serious Game for Spatial Cognition Assessment: Content Validity and Usability Study.",
-    "13":"Last-Iterate Convergence to Approximate Nash Equilibria in Multiplayer Imperfect Information Games.",
-    "14":"Motion Editing for Quadruped Characters via Latent Frequency Embedding.",
-    "15":"Vectorial Discrimination of Small Molecules with a Macrocycle Adaptor-Protein Nanopore System and Nanocavity-Dependent, pH Gradient-Controlled Analyte Kinetics.",
-    "16":"Effectiveness evaluation of a serious game for dental lost wax casting training.",
-    "17":"Evaluating the effectiveness of two video-based educational interventions to enhance knowledge about epilepsy in preschool children.",
-    "18":"Selection of emission reduction modes for energy-intensive enterprises under the dynamic carbon cap-and-trade regulation.",
-    "19":"Beyond lectures: leveraging competition, peer discussion and real-world scenarios in a digital card game to enhance learning of microbiology and immunology concepts.",
-    "20":"Representations of in vitro fertilization in the first cycle of IVF in women.",
-    "21":"Novel Selectable Marker Sesquiterpenoid Antibiotic Pentalenolactone.",
-    "22":"The Delta3D open source game engine.",
-    "23":"Understanding the sport viewership experience using functional near-infrared spectroscopy.",
-    "24":"Hybrid-Prediction Integrated Planning for Autonomous Driving.",
-    "25":"The (Gami)fictional Ego-Center: Projecting the Location of the Self Into an Avatar.",
-    "26":"Emotional Ego- and Altercentric Biases in High-Functioning Autism Spectrum Disorder: Behavioral and Neurophysiological Evidence.",
-    "27":"Deep learning-based robust positioning for all-weather autonomous driving.",
-    "28":"Co-Attendance Communities: A Multilevel Egocentric Network Analysis of American Soccer Supporters' Groups.",
-    "29":"Development of the child's ego strength scale: an observation-based assessment of the board game behaviors in play therapy in Korea.",
-    "30":"Testing the Effects of a Preceding Self-Control Task on Decision-Making in Soccer Refereeing.",
-    "31":"Biostatistics Disruptive Acculturation Through Serious Gaming: A New Hope.",
-    "32":"Effect of Ego Depletion on Interpersonal Trust among Individuals with Substance Use Disorders.",
-    "33":"Madness and Otherness: Moments of Possibility.",
-    "34":"An Explanatory Model for the Relationship between Motivation in Sport, Victimization, and Video Game Use in Schoolchildren.",
-    "35":"Ego-depletion increases selfish decision making, but may also increase self-conflict and regret about those decisions.",
-    "36":"Social networks and inference about unknown events: A case of the match between Google's AlphaGo and Sedol Lee.",
-    "37":"Emotional, Cognitive and Self-Enhancement Processes in Aggressive Behavior After Interpersonal Rejection and Exclusion.",
-    "38":"The Effect of Distance on Moral Engagement: Event Related Potentials and Alpha Power are Sensitive to Perspective in a Virtual Shooting Task.",
-    "39":"In intergroup conflict, self-sacrifice is stronger among pro-social individuals, and parochial altruism emerges especially among cognitively taxed individuals.",
-    "40":"Reflected glory and failure: the role of the medial prefrontal cortex and ventral striatum in self vs other relevance during advice-giving outcomes.",
-    "41":"Medial prefrontal cortex reacts to unfairness if this damages the self: a tDCS study.",
-    "42":"Self-affirmation facilitates cardiovascular recovery following interpersonal evaluation.",
-    "43":"Challenge-Based Adaptation of Exoskeleton Assistance and Gamified Biofeedback Enables Automated Gait Rehabilitation.",
-    "44":"Non-compliance with and non-enforcement of UK loot box industry self-regulation on the Apple App Store: a longitudinal study on poor implementation.",
-    "45":"Association of Screen Time Activities with Lifestyle Behaviors in Middle-School Children.",
-    "46":"Children's developing understanding of social norms.",
-    "47":"A conceptional game theory analysis of environmental public interest litigation of China.",
-    "48":"People punish defection, not failures to conform to the majority.",
-    "49":"Vertical decentralization, environmental regulation, and enterprise pollution: An evolutionary game analysis.",
-    "50":"Research on immature wheat harvesting behavior of farmers from the perspective of food security: An evolutionary game based analysis.",
-    "51":"Promoting enforcement of non-lead hunting ammunition regulations and compliance in Europe and North America.",
-    "52":"Discriminatory punishment undermines the enforcement of group cooperation.",
-    "53":"The Good Behaviour Game: Maintaining students' physical distancing in physical education classes during the COVID-19 pandemic.",
-    "54":"Modulating the Activity of the Right Dorsolateral Prefrontal Cortex Alters Altruism in Situations of Advantageous Inequity.",
-    "55":"Enforcing trustworthy cloud SLA with witnesses: A game theory-based model using smart contracts.",
-    "56":"Adapting paths against zero-determinant strategies in repeated prisoner's dilemma games.",
-    "57":"Payoff landscapes and the robustness of selfish optimization in iterated games.",
-    "58":"Misperception influence on zero-determinant strategies in iterated Prisoner's Dilemma.",
-    "59":"A speed-of-play limit reduces gambling expenditure in an online roulette game: Results of an online experiment.",
-    "60":"Children across societies enforce conventional norms but in culturally variable ways.",
-    "61":"Inter-brain synchronization is weakened by the introduction of external punishment.",
-    "62":"Preschoolers agree to and enforce prosocial, but not selfish, sharing norms.",
-    "63":"Two-Screen Virtual Board Game Didactic for Teaching Wilderness and Environmental Medicine Topics to Emergency Medicine Residents.",
-    "64":"Feasibility of modified remotely monitored in-home gaming technology for improving hand function in adolescents with cerebral palsy.",
-    "65":"\"STAR WARS: The first Jedi\" Gamification Program: Use of a Mobile App to Improve Body Composition in College Students.",
-    "66":"What is needed to sustain improvements in hospital practices post-COVID-19? a qualitative study of interprofessional dissonance in hospital infection prevention and control.",
-    "67":"Novel, First-in-Human, Oral PCLX-001 Treatment in a Patient with Relapsed Diffuse Large B-Cell Lymphoma.",
-    "68":"The Howieson's Poort fauna from Sibudu Cave: Documenting continuity and change within Middle Stone Age industries.",
-    "69":"Video incident analysis of concussions in boys' high school lacrosse.",
-    "70":"Head, face, and eye injuries in scholastic and collegiate lacrosse: a 4-year prospective study.",
-    "71":"The impact of a love language game intervention on relationship satisfaction among Chinese couples in China and Malaysia: examining the role of individualism-collectivism.",
-    "72":"Barriers and facilitators to participation in women's and girls' rugby: A mixed-methods study.",
-    "73":"A Multi-Stakeholder Evaluation of a Walking Football Group for People with Dementia Developed in Partnership with a Premier League Club.",
-    "74":"Love at first glance: Imbalanced processing to\u00a0gaming and natural rewards in internet gaming\u00a0disorder.",
-    "75":"Feeling Love and Lust: An Examination of Individualistic and Mutualistic Erotic Talk.",
-    "76":"Do Chinese Preschool Children Love Their Motherland? Evidence from the Game-Based Assessment.",
-    "77":"Beyond the Iron Throne: exploring the representation of homosexuality in the series Game of Thrones.",
-    "78":"For the Love of the Game: Calculating the Premium Associated With Academic Surgical Practice.",
-    "79":"Are you thinking what I'm thinking? Perspective-taking in a language game.",
-    "80":"Specialist healthcare services for concussion\/mild traumatic brain injury in England: a consensus statement using modified Delphi methodology.",
-    "81":"\ufeffName game conundrum: identical specific epithets in Microgastrinae (Hymenoptera, Braconidae).",
-    "82":"Problematic online anime (animation) use: It's relationship with viewers' satisfaction with life, emotions, and emotion regulation.",
-    "83":"The Relationship between Technology Addiction and Attitude toward Reading: An Investigation on Pre-Service Teachers.",
-    "84":"Human Performance in Competitive and Collaborative Human-Machine Teams.",
-    "85":"A Face to Love or Trust.",
-    "86":"Uses and Considerations for Cinematic Virtual Reality in Health Care.",
-    "87":"Increased Interpersonal Brain Synchronization in Romantic Couples Is Associated with Higher Honesty: An fNIRS Hyperscanning Study.",
-    "88":"Feasibility of a Cinematic-Virtual Reality Training Program for Health Professional Students: A Single-Arm Pre-Post Study.",
-    "89":"Cinematic Virtual Reality for Educating Health Care Providers About Type 2 Diabetes, Disability, and Elder Abuse and Neglect: A Pilot Study.",
-    "90":"Turkish Adaptation of Romantic Relationship Sabotage Scale: Validity and Reliability Study.",
-    "91":"Evaluation of Game Engines for Cross-Platform Development of Mobile Serious Games for Health.",
-    "92":"PandaEPL: a library for programming spatial navigation experiments.",
-    "93":"Design of a low cost multiple user virtual environment for rehabilitation (MUVER) of patients with stroke.",
-    "94":"A New Socially Assistive Robot with Integrated Serious Games for Therapies with Children with Autism Spectrum Disorder and Down Syndrome: A Pilot Study.",
-    "95":"Evaluating treatment units for the optimization of large textile WWTPs: A game theoretic approach.",
-    "96":"The impact of gamification on smoking cessation: A systematic review and meta-analysis.",
-    "97":"Mycorrhizal symbioses and tree diversity in global forest communities.",
-    "98":"Autonomous agents: Augmenting visual information with raw audio data.",
-    "99":"Gaelic Football Coaches' Use of a Game-Based Approach Impacts Game Performance, Session Characteristics, and Player Perceptions.",
-    "100":"Effect of simulated handball match-induced fatigue on isokinetic hamstring-to-quadriceps ratio and evertor-to-invertor ratio in professional players.",
-    "101":"Combining meta reinforcement learning with neural plasticity mechanisms for improved AI performance.",
-    "102":"Evolution of cooperation with Q-learning: The impact of information perception.",
-    "103":"The Design and Fabrication of Shear-Mode Piezoelectric Accelerometers with High Bandwidth Using High Piezoelectric g-Coefficient NKN-Based Ceramics.",
-    "104":"Unraveling a century-old mystery: The role of Ophiostoma quercus in oak decline.",
-    "105":"Assessment of causality between computer game playing and neuropsychiatric disorders: A bidirectional Mendelian randomization study.",
-    "106":"Sports Injuries in Basketball, Handball, and Volleyball Players: Systematic Review.",
-    "107":"Intelligent anti-jamming communication technology with electromagnetic spectrum feature cognition.",
-    "108":"Design and Validation of a Questionnaire for the Assessment of Tennis Players' Tactical Skills (TST).",
-    "109":"A game theoretical model to examine pedestrian behaviour and safety on unsignalised slip lanes using AI-based video analytics.",
-    "110":"Promoting cooperation in the voluntary prisoner's dilemma game via reinforcement learning.",
-    "111":"A meta-analysis of the impact of technology related factors on students' academic performance.",
-    "112":"'Some like it cold'. On the association between the physical and affective notion of warmth.",
-    "113":"A Self-Adaptive Serious Game to Improve Motor Learning Among Older Adults in Immersive Virtual Reality: Short-Term Longitudinal Pre-Post Study on Retention and Transfer.",
-    "114":"Facial attractiveness influenced cooperative behavior in the Stag Hunt game: Evidence from neural electrophysiology.",
-    "115":"The impact of online games on creativity and the role of imagination.",
-    "116":"Going beyond video game consumption when considering Internet Gaming Disorder.",
-    "117":"Caring for screenagers (part 2): a pediatrician's primer on popular games and educational tools.",
-    "118":"A Serious Game \"DiaPed\": Impact on Therapeutic Education for Children with Type 1 Diabetes in Tunisia.",
-    "119":"Identifying Key Principles and Commonalities in Digital Serious Game Design Frameworks: Scoping Review.",
-    "120":"Predicting social anxiety disorder based on communication logs and social network data from a massively multiplayer online game: Using a graph neural network.",
-    "121":"Novel environmental variables help explain winter weather effects on activity and habitat selection of greater sage-grouse along the border of Colorado and Wyoming, USA.",
-    "122":"Skin in the game - locally made antibodies fight resident bacteria.",
-    "123":"Predator-specific mortality of sage-grouse nests based on predator DNA on eggshells.",
-    "124":"A Pilot Controlled Trial of Relaxation Training Combined with a Video Game Reinforcing Emotional Regulation to Improve Anger Management in Children and Adolescents.",
-    "125":"The Treasures of Renal Isle: Evaluating a Gamified Module While Enhancing Student Learning.",
-    "126":"Beyond overlap: Considering habitat preference and fitness outcomes in the umbrella species concept.",
-    "127":"Using Gaming to Promote Vaccination Among Youth: A Systematic Review.",
-    "128":"Repeated foreign body ingestion as a dynamic game: A case report.",
-    "129":"Testing a Behavioral Activation Gaming App for Depression During Pregnancy: Multimethod Pilot Study.",
-    "130":"Using Opportunistic Samples to Monitor West Nile Virus Infection Status in Greater Sage-grouse (Centrocercus urophasianus) in Wyoming, USA (2020-22).",
-    "131":"An Inflection Point in Cancer Protein Biomarkers: What was and What's Next.",
-    "132":"Ancient bears provide insights into Pleistocene ice age refugia in Southeast Alaska.",
-    "133":"Effects of large-scale disturbance on animal space use: Functional responses by greater sage-grouse after megafire.",
-    "134":"Prevalence and Risk Factors of Internet Gaming Disorder Under the COVID-19 Pandemic Among University Students in Macao.",
-    "135":"The relationship between playing video games on mobile devices and well-being in a sample of Japanese adolescents and adults.",
-    "136":"Genetic drift drives rapid speciation of an Arctic insular endemic shrew (Sorex pribilofensis).",
-    "137":"Insights into bear evolution from a Pleistocene polar bear genome.",
-    "138":"Development of flame retardant slow release insecticides paint and testing its efficacy for four years against dengue and malaria vectors.",
-    "139":"The Power of Play: Strategies for Enhancing Development in Children with Autism Spectrum Disorders.",
-    "140":"Using the Nintendo\u2122 Wii to Improve Physical Function and Reduce the Risk of Falls in Older Adults: A Randomized Controlled Clinical Trial.",
-    "141":"D-Tour: Semi-Automatic Generation of Interactive Guided Tours for Visualization Dashboard Onboarding.",
-    "142":"[New Horizons for Clinical Practice and Competence: Applying Game-Based Learning in Nursing Education].",
-    "143":"Experiments as Code and its application to VR studies in human-building interaction.",
-    "144":"Comparing the effectiveness of game literacy education and game coding education in improving problematic internet gaming.",
-    "145":"Emotions and motivations of gambling: A comparison between scratch card, slot-machines, and casino gamblers.",
-    "146":"Checking Different Video Game Mechanics to Assess Cognitive Abilities in Groups with and without Emotional Problems.",
-    "147":"Learning to play against any mixture of opponents.",
-    "148":"Faster sorting algorithms discovered using deep reinforcement learning.",
-    "149":"Am I Winning or Losing? Probing the Appraisal of Partial Wins via Response Vigor.",
-    "150":"How video calls affect mimicry and trust during interactions.",
-    "151":"Mastering the game of Stratego with model-free multiagent reinforcement learning.",
-    "152":"What we bet on is not only tangible money, but also good mood.",
-    "153":"Development and validation of a prediction model for online gambling problems based on players' account data.",
-    "154":"PLC-Informed Distributed Game Theoretic Learning of Energy-Optimal Production Policies.",
-    "155":"Push Outcomes Bias Perceptions of Scratch Card Games.",
-    "156":"Using Icon Arrays to Communicate Gambling Information Reduces the Appeal of Scratch Card Games.",
-    "157":"A decay-based account of learning and adaptation in complex skills.",
-    "158":"Effortful leisure is a source of meaning in everyday life.",
-    "159":"Faeces, Feathers and Flight: Understanding of Escape Behaviour in Incubating Eurasian Woodcocks (Scolopax\u00a0rusticola).",
-    "160":"Surgical embodied intelligence for generalized task autonomy in laparoscopic robot-assisted surgery.",
-    "161":"Self-other generalisation shapes social interaction and is disrupted in borderline personality disorder.",
-    "162":"EU regulation: An unprecedented opportunity to protect children's and wildlife health from the toxic effects of lead ammunition.",
-    "163":"Blastocystis in free-ranging wild ruminant species across the Iberian Peninsula.",
-    "164":"Investigating the long-term impact of misinformation interventions in upper secondary education.",
-    "165":"Epidemiology of Elbow Medial Ulnar Collateral Ligament Surgeries in Major and Minor League Baseball Pitchers: A Descriptive Study of 2281 Cases.",
-    "166":"Intracortical functional connectivity during deep sleep reveals prosocial preferences.",
-    "167":"Minimum 10-Year Outcomes of Arthroscopic Capsulolabral Repair for Posterior Shoulder Instability.",
-    "168":"Acute Hamstring Injury in a Middle-Aged Recreational Athlete During Independenceball: A Case Report.",
-    "169":"Understanding the evolutionary processes and causes of groundwater drought using an interpretable machine learning model.",
-    "170":"Combined assessment of auditory distance perception and externalization.",
-    "171":"Anthrax, livelihood vulnerability, and food insecurity in selected game management areas in Zambia: A mixed-methods analysis at the human-wildlife-livestock interface.",
-    "172":"Differences in playing experience, anthropometry and performance measures between Under 16 schoolboy rugby players classified as starters or non-starters: A comparative cross-sectional study.",
-    "173":"How media competition fuels the spread of misinformation.",
-    "174":"How do the effects of toxicity in competitive online video games vary by source and match outcome?",
-    "175":"Blockchain-enabled carbon emission trading data quality regulation: A tripartite evolutionary game analysis.",
-    "176":"Socioeconomic drivers of wild meat consumption in the city of Iquitos, Peru.",
-    "177":"The impact of food marketing via video game live streaming on snack intake in adolescents: a randomised controlled trial.",
-    "178":"Energy cost and game flow of 5 exer-games in trained players.",
-    "179":"Change of Direction Density: A Novel Consideration of Consecutive Changes of Direction in Elite Youth Soccer.",
-    "180":"The machine learning algorithm based on decision tree optimization for pattern recognition in track and field sports.",
-    "181":"Unveiling Surface Chemistry of Ultrafast-Sintered LLZO Solid-State Electrolytes for High-Performance Li-Garnet Solid-State Batteries.",
-    "182":"Normative In-Game Data for Collegiate Baseball Pitchers Using Markerless Tracking Technology.",
-    "183":"Tall and Fall Versus Drop and Drive Strategy in College Baseball Pitchers for Velocity and Elbow Valgus Torque.",
-    "184":"A Study on the Effectiveness of VR Rehabilitation Training Content for Older Individuals with Total Knee Replacement: Pilot Study.",
-    "185":"Smartphone usage during walking decreases the positive persistency in gait cycle variability.",
-    "186":"Wearable cuffless blood pressure tracking: when will they be good enough?",
-    "187":"Risk of using smartphones while walking for digital natives in realistic environments: Effects of cognitive-motor interference.",
-    "188":"Development and implementation of the frog-in-maze game to study upper limb movement in people with Parkinson's disease.",
-    "189":"Range of Motion Adaptations During a Simulated Game Exposure in Softball Pitchers.",
-    "190":"Game-based intradialytic non-weight-bearing exercise training on gait speed and balance in older adults with diabetes: a single-blind randomized controlled trial.",
-    "191":"Game-play affects hamstring but not adductor muscle fibre mechanics in elite U20 basketball athletes.",
-    "192":"\"I'm a Referee, Not a Female Referee\": The Experiences of Women Involved in Football as Coaches and Referees.",
-    "193":"Grip Strength Measurement in Baseball Pitchers: A Clinical Examination to Indicate Stride Length Inefficiency.",
-    "194":"The influence of a simulated game on muscular strength in female high-school and collegiate softball pitchers.",
-    "195":"Applying the brakes in tennis: How entry speed affects the movement and hitting kinematics of professional tennis players.",
-    "196":"Effects of a Simulated Game on Pitching Kinematics in Youth Softball Pitcher.",
-    "197":"The practical application of a method of analysing the variability of within-step accelerations collected via athlete tracking devices.",
-    "198":"Effects of Vitamin D and Calcium Fortified Yogurts on Gait, Cognitive Performances, and Serum 25-Hydroxyvitamin D Concentrations in Older Community-Dwelling Females: Results from the GAit, MEmory, Dietary and Vitamin D (GAME-D2) Randomized Controlled Trial.",
-    "199":"Twine virtual patient games as an online resource for undergraduate diabetes acute care education.",
-    "200":"'SOMS BrainSpace': A digital serious game for undergraduate neuroscience.",
-    "201":"Widespread illegal video game advertising in the UK and South Korea: Many adverts not disclosing loot box presence found using Meta's ad repository.",
-    "202":"Augmented reality in pelvic surgery: using an AR-headset as intraoperative radiation-free navigation tool.",
-    "203":"Entropy Maximization, Time Emergence, and Phase Transition.",
-    "204":"AdaptRehab VR: Development of an Immersive Virtual Reality System for Upper Limb Stroke Rehabilitation Designed for Low- and Middle-Income Countries Using a Participatory Co-Creation Approach.",
-    "205":"Development of a Serious Game to Simulate Neonatal Intensive Care Unit Experiences: Collaborative Quasi-Experimental Study.",
-    "206":"Route of fire: Pregame rituals and emotional synchrony among Brazilian football fans.",
-    "207":"Non-compliance with and non-enforcement of UK loot box industry self-regulation on the Apple App Store: a longitudinal study on poor implementation.",
-    "208":"The Creation of Artificial Data for Training a Neural Network Using the Example of a Conveyor Production Line for Flooring.",
-    "209":"Autonomous agents: Augmenting visual information with raw audio data.",
-    "210":"Virtual Reality with Moodle for Training in Telemedicine.",
-    "211":"Extraordinary siblings: Mole rats, marmosets, and Radcliffe-Brown.",
-    "212":"Proposal of a Serious Game for Dynamic Balance Training Using a Force Platform: A Pilot Study.",
-    "213":"VR-NRP: A development study of a virtual reality simulation for training in the neonatal resuscitation program.",
-    "214":"Rehabilitative game-based system for enhancing physical and cognitive abilities of neurological disorders.",
-    "215":"Haptic-Enhanced Mixed Reality for Upper Limb Rehabilitation in Parkinson's Disease.",
-    "216":"Augmented Reality for extremity hemorrhage training: a usability study.",
-    "217":"Effect of digital health applications with or without gamification on physical activity and cardiometabolic risk factors: a systematic review and meta-analysis of randomized controlled trials.",
-    "218":"High-fidelity color characterization in virtual reality across head mounted displays, game engines, and materials.",
-    "219":"Golden Breath: Feasibility and acceptability of a biofeedback-based virtual reality game on reducing children's needle-related pain and fear.",
-    "220":"UBG: An Unreal BattleGround Benchmark With Object-Aware Hierarchical Proximal Policy Optimization.",
-    "221":"Unidentified: Simulation-based education in forensic odontology.",
-    "222":"U3UNet: An accurate and reliable segmentation model for forest fire monitoring based on UAV vision.",
-    "223":"DomeVR: Immersive virtual reality for primates and rodents.",
-    "224":"Rendering protein structures inside cells at the atomic level with Unreal Engine.",
-    "225":"Design and Evaluation of Using Head-Mounted Virtual Reality for Learning Clinical Procedures: Mixed Methods Study.",
-    "226":"Accuracy and precision of stimulus timing and reaction times with Unreal Engine and SteamVR.",
-    "227":"[Research and Development of A Kinect Based Virtual System for Upper Limb Rehabilitation].",
-    "228":"Light-Based Reaction Speed Does Not Predict Field-Based Reactive Agility in Soccer Players.",
-    "229":"Low-cost Vision-Based 3D Elbow Tracking for Post-Stroke Rehabilitation: Development and Pilot Evaluation of a Serious Game.",
-    "230":"Emerging innovations in ophthalmic drug delivery for diabetic retinopathy: a translational perspective.",
-    "231":"Real-time analysis of soccer ball-player interactions using graph convolutional networks for enhanced game insights.",
-    "232":"Generative AI in Game Design: Enhancing Creativity or Constraining Innovation?",
-    "233":"Magnification: The game changer in dentistry.",
-    "234":"Comparison of a novel gamified binocular therapy and standard monocular patching therapy in treating unilateral amblyopia in young children: a prospective, multicenter, randomized controlled trial.",
-    "235":"Performance of teenaged action video game players on the Developmental Eye Movement and King-Devick tests.",
-    "236":"Efficacy of patching combined with action video games in amblyopic children aged 4-10\u2009years: A randomised clinical trial.",
-    "237":"Recent Advances in Stem Cells of Corneal Epithelia.",
-    "238":"Validation of a Mobile App for Remote Autism Screening in Toddlers.",
-    "239":"Haptic-Driven Serious Card Games for Older Adults: User Preferences Study.",
-    "240":"The Creation of Artificial Data for Training a Neural Network Using the Example of a Conveyor Production Line for Flooring.",
-    "241":"Relationship between adolescent gaming addiction and myopia, ocular surface condition, and health status: a questionnaire based cohort study.",
-    "242":"Augmented and virtual reality in retinal care: A systematic review of their role in training, surgery, and treatment.",
-    "243":"PCVR: a pre-trained contextualized visual representation for DNA sequence classification.",
-    "244":"Confidence signalling aids deception in strategic interactions.",
-    "245":"New Mixed Reality Headset: First Exploratory Use in Intraocular Surgery and Telementoring.",
-    "246":"Neuroprotection beyond intraocular pressure: game changer or quiet addiction.",
-    "247":"The future outlook for data in orthopedic surgery: A new era of real-time innovation.",
-    "248":"",
-    "249":"Oral adverse events associated with antiseizure medications: An analysis of the FDA adverse event reporting system (FAERS) database.",
-    "250":"Long-term cognitive effects of comorbid epilepsy on survivors of aneurysmal subarachnoid hemorrhages.",
-    "251":"Health-related quality of life and unmet needs of people with epilepsy and their family caregivers: A systematic scoping review.",
-    "252":"Association of road traffic noise with the risk of new-onset epilepsy.",
-    "253":"Genetic Epilepsies: Clinical pearls for early career epileptologists.",
-    "254":"Survival Disparities by Sex, Race, and Age in the Era of Contemporary Advanced Urothelial Carcinoma Therapy: A Real-World Analysis.",
-    "255":"Emergence of Parechovirus-A5 central nervous system infections in children from Kansas City, Missouri, USA.",
-    "256":"Effectiveness of Nurse-Family Partnership on child outcomes by patterns of program intensity: Secondary evidence from a randomized controlled trial (British Columbia Healthy Connections Project).",
-    "257":"The association of retinal age gap with schizophrenia: a cross-sectional analysis.",
-    "258":"Are your eyes following your thoughts? Exploring individual differences in internal coupling.",
-    "259":"The sodium-glutamate antagonist riluzole improves outcome after acute spinal cord injury: results from the RISCIS randomised controlled trial analysed using a global statistical analytic technique.",
-    "260":"Cortical inhibitory and facilitatory alterations in the continuum of alpha-synucleinopathies.",
-    "261":"Operative neurosurgery for traumatic subdural hematoma: association between trauma center variation and patient outcomes.",
-    "262":"Transarticular atlantooccipital and condylar screw fixation with neuronavigation for occipital cervical stabilization in pediatric patients: a case series.",
-    "263":"Ki-67 in meningioma: distribution and implications.",
-    "264":"Neuropsychological outcome, magnetic resonance imaging findings, and health-related quality of life of pediatric victims of traumatic brain injury: a prospective study.",
-    "265":"Selective Functionalization of Peptides with Reactive Fragment Ions.",
-    "266":"Developing an Evaluation Index System for Service Capability of Internet Hospitals in China: Mixed Methods Study.",
-    "267":"Safety and Efficacy of Elranatamab in Patients with Relapsed and\/or Refractory immunoglobulin Light-Chain Amyloidosis."
-  },
-  "Citations":{
-    "0":"",
-    "1":11,
-    "2":"",
-    "3":36,
-    "4":43,
-    "5":68,
-    "6":30,
-    "7":"",
-    "8":53,
-    "9":19,
-    "10":64,
-    "11":"",
-    "12":73,
-    "13":"",
-    "14":"",
-    "15":66,
-    "16":39,
-    "17":"",
-    "18":44,
-    "19":21,
-    "20":56,
-    "21":36,
-    "22":"",
-    "23":27,
-    "24":"",
-    "25":53,
-    "26":74,
-    "27":49,
-    "28":48,
-    "29":99,
-    "30":64,
-    "31":"",
-    "32":"",
-    "33":"",
-    "34":82,
-    "35":"",
-    "36":79,
-    "37":33,
-    "38":66,
-    "39":72,
-    "40":35,
-    "41":44,
-    "42":"",
-    "43":"",
-    "44":82,
-    "45":"",
-    "46":"",
-    "47":142,
-    "48":73,
-    "49":"",
-    "50":56,
-    "51":55,
-    "52":53,
-    "53":41,
-    "54":"",
-    "55":29,
-    "56":"",
-    "57":"",
-    "58":39,
-    "59":"",
-    "60":63,
-    "61":46,
-    "62":"",
-    "63":30,
-    "64":"",
-    "65":"",
-    "66":65,
-    "67":6,
-    "68":"",
-    "69":"",
-    "70":"",
-    "71":33,
-    "72":"",
-    "73":69,
-    "74":68,
-    "75":"",
-    "76":46,
-    "77":44,
-    "78":37,
-    "79":54,
-    "80":77,
-    "81":39,
-    "82":"",
-    "83":71,
-    "84":44,
-    "85":27,
-    "86":16,
-    "87":93,
-    "88":39,
-    "89":32,
-    "90":42,
-    "91":"",
-    "92":24,
-    "93":"",
-    "94":32,
-    "95":"",
-    "96":44,
-    "97":72,
-    "98":43,
-    "99":"",
-    "100":55,
-    "101":59,
-    "102":"",
-    "103":35,
-    "104":"",
-    "105":53,
-    "106":90,
-    "107":30,
-    "108":"",
-    "109":"",
-    "110":"",
-    "111":144,
-    "112":"",
-    "113":80,
-    "114":"",
-    "115":89,
-    "116":"",
-    "117":"",
-    "118":27,
-    "119":113,
-    "120":62,
-    "121":"",
-    "122":"",
-    "123":110,
-    "124":"",
-    "125":9,
-    "126":123,
-    "127":46,
-    "128":5,
-    "129":54,
-    "130":"",
-    "131":139,
-    "132":"",
-    "133":99,
-    "134":71,
-    "135":48,
-    "136":"",
-    "137":66,
-    "138":43,
-    "139":30,
-    "140":41,
-    "141":"",
-    "142":"",
-    "143":92,
-    "144":39,
-    "145":37,
-    "146":42,
-    "147":51,
-    "148":72,
-    "149":65,
-    "150":100,
-    "151":"",
-    "152":"",
-    "153":65,
-    "154":"",
-    "155":"",
-    "156":"",
-    "157":"",
-    "158":136,
-    "159":50,
-    "160":"",
-    "161":68,
-    "162":"",
-    "163":60,
-    "164":63,
-    "165":37,
-    "166":"",
-    "167":25,
-    "168":9,
-    "169":79,
-    "170":"",
-    "171":34,
-    "172":20,
-    "173":82,
-    "174":41,
-    "175":"",
-    "176":"",
-    "177":"",
-    "178":"",
-    "179":"",
-    "180":35,
-    "181":52,
-    "182":23,
-    "183":"",
-    "184":29,
-    "185":64,
-    "186":22,
-    "187":75,
-    "188":42,
-    "189":"",
-    "190":37,
-    "191":"",
-    "192":72,
-    "193":29,
-    "194":"",
-    "195":"",
-    "196":"",
-    "197":"",
-    "198":36,
-    "199":15,
-    "200":"",
-    "201":32,
-    "202":"",
-    "203":23,
-    "204":106,
-    "205":17,
-    "206":42,
-    "207":82,
-    "208":54,
-    "209":43,
-    "210":"",
-    "211":63,
-    "212":"",
-    "213":55,
-    "214":21,
-    "215":"",
-    "216":61,
-    "217":122,
-    "218":"",
-    "219":"",
-    "220":"",
-    "221":"",
-    "222":"",
-    "223":39,
-    "224":21,
-    "225":38,
-    "226":53,
-    "227":"",
-    "228":"",
-    "229":"",
-    "230":"",
-    "231":101,
-    "232":62,
-    "233":62,
-    "234":38,
-    "235":56,
-    "236":"",
-    "237":125,
-    "238":34,
-    "239":55,
-    "240":54,
-    "241":44,
-    "242":"",
-    "243":48,
-    "244":55,
-    "245":29,
-    "246":"",
-    "247":"",
-    "248":"",
-    "249":"",
-    "250":"",
-    "251":"",
-    "252":"",
-    "253":"",
-    "254":"",
-    "255":"",
-    "256":"",
-    "257":"",
-    "258":"",
-    "259":"",
-    "260":"",
-    "261":"",
-    "262":"",
-    "263":"",
-    "264":"",
-    "265":"",
-    "266":"",
-    "267":""
-  },
-  "Relevant":{
-    "0":true,
-    "1":true,
-    "2":true,
-    "3":true,
-    "4":true,
-    "5":true,
-    "6":true,
-    "7":true,
-    "8":true,
-    "9":true,
-    "10":true,
-    "11":true,
-    "12":true,
-    "13":true,
-    "14":true,
-    "15":true,
-    "16":true,
-    "17":true,
-    "18":true,
-    "19":true,
-    "20":true,
-    "21":true,
-    "22":true,
-    "23":true,
-    "24":true,
-    "25":true,
-    "26":true,
-    "27":true,
-    "28":true,
-    "29":true,
-    "30":true,
-    "31":true,
-    "32":true,
-    "33":true,
-    "34":true,
-    "35":true,
-    "36":true,
-    "37":true,
-    "38":true,
-    "39":true,
-    "40":true,
-    "41":true,
-    "42":true,
-    "43":true,
-    "44":true,
-    "45":true,
-    "46":true,
-    "47":true,
-    "48":true,
-    "49":true,
-    "50":true,
-    "51":true,
-    "52":true,
-    "53":true,
-    "54":true,
-    "55":true,
-    "56":true,
-    "57":true,
-    "58":true,
-    "59":true,
-    "60":true,
-    "61":true,
-    "62":true,
-    "63":true,
-    "64":true,
-    "65":true,
-    "66":true,
-    "67":true,
-    "68":true,
-    "69":true,
-    "70":true,
-    "71":true,
-    "72":true,
-    "73":true,
-    "74":true,
-    "75":true,
-    "76":true,
-    "77":true,
-    "78":true,
-    "79":true,
-    "80":true,
-    "81":true,
-    "82":true,
-    "83":true,
-    "84":true,
-    "85":true,
-    "86":true,
-    "87":true,
-    "88":true,
-    "89":true,
-    "90":true,
-    "91":true,
-    "92":true,
-    "93":true,
-    "94":true,
-    "95":true,
-    "96":true,
-    "97":true,
-    "98":true,
-    "99":true,
-    "100":true,
-    "101":true,
-    "102":true,
-    "103":true,
-    "104":true,
-    "105":true,
-    "106":true,
-    "107":true,
-    "108":true,
-    "109":true,
-    "110":true,
-    "111":true,
-    "112":true,
-    "113":true,
-    "114":true,
-    "115":true,
-    "116":true,
-    "117":true,
-    "118":true,
-    "119":true,
-    "120":true,
-    "121":true,
-    "122":true,
-    "123":true,
-    "124":true,
-    "125":true,
-    "126":true,
-    "127":true,
-    "128":true,
-    "129":true,
-    "130":true,
-    "131":true,
-    "132":true,
-    "133":true,
-    "134":true,
-    "135":true,
-    "136":true,
-    "137":true,
-    "138":true,
-    "139":true,
-    "140":true,
-    "141":true,
-    "142":true,
-    "143":true,
-    "144":true,
-    "145":true,
-    "146":true,
-    "147":true,
-    "148":true,
-    "149":true,
-    "150":true,
-    "151":true,
-    "152":true,
-    "153":true,
-    "154":true,
-    "155":true,
-    "156":true,
-    "157":true,
-    "158":true,
-    "159":true,
-    "160":true,
-    "161":true,
-    "162":true,
-    "163":true,
-    "164":true,
-    "165":true,
-    "166":true,
-    "167":true,
-    "168":true,
-    "169":true,
-    "170":true,
-    "171":true,
-    "172":true,
-    "173":true,
-    "174":true,
-    "175":true,
-    "176":true,
-    "177":true,
-    "178":true,
-    "179":true,
-    "180":true,
-    "181":true,
-    "182":true,
-    "183":true,
-    "184":true,
-    "185":true,
-    "186":true,
-    "187":true,
-    "188":true,
-    "189":true,
-    "190":true,
-    "191":true,
-    "192":true,
-    "193":true,
-    "194":true,
-    "195":true,
-    "196":true,
-    "197":true,
-    "198":true,
-    "199":true,
-    "200":true,
-    "201":true,
-    "202":true,
-    "203":true,
-    "204":true,
-    "205":true,
-    "206":true,
-    "207":true,
-    "208":true,
-    "209":true,
-    "210":true,
-    "211":true,
-    "212":true,
-    "213":true,
-    "214":true,
-    "215":true,
-    "216":true,
-    "217":true,
-    "218":true,
-    "219":true,
-    "220":true,
-    "221":true,
-    "222":true,
-    "223":true,
-    "224":true,
-    "225":true,
-    "226":true,
-    "227":true,
-    "228":true,
-    "229":true,
-    "230":true,
-    "231":true,
-    "232":true,
-    "233":true,
-    "234":true,
-    "235":true,
-    "236":true,
-    "237":true,
-    "238":true,
-    "239":true,
-    "240":true,
-    "241":true,
-    "242":true,
-    "243":true,
-    "244":true,
-    "245":true,
-    "246":true,
-    "247":true,
-    "248":true,
-    "249":true,
-    "250":true,
-    "251":true,
-    "252":true,
-    "253":true,
-    "254":true,
-    "255":true,
-    "256":true,
-    "257":true,
-    "258":true,
-    "259":true,
-    "260":true,
-    "261":true,
-    "262":true,
-    "263":true,
-    "264":true,
-    "265":true,
-    "266":true,
-    "267":true
-  },
-  "Comment":{
-    "0":"Not reviewed yet",
-    "1":"Not reviewed yet",
-    "2":"Not reviewed yet",
-    "3":"Not reviewed yet",
-    "4":"Not reviewed yet",
-    "5":"Not reviewed yet",
-    "6":"Not reviewed yet",
-    "7":"Not reviewed yet",
-    "8":"Not reviewed yet",
-    "9":"Not reviewed yet",
-    "10":"Not reviewed yet",
-    "11":"Not reviewed yet",
-    "12":"Not reviewed yet",
-    "13":"Not reviewed yet",
-    "14":"Not reviewed yet",
-    "15":"Not reviewed yet",
-    "16":"Not reviewed yet",
-    "17":"Not reviewed yet",
-    "18":"Not reviewed yet",
-    "19":"Not reviewed yet",
-    "20":"Not reviewed yet",
-    "21":"Not reviewed yet",
-    "22":"Not reviewed yet",
-    "23":"Not reviewed yet",
-    "24":"Not reviewed yet",
-    "25":"Not reviewed yet",
-    "26":"Not reviewed yet",
-    "27":"Not reviewed yet",
-    "28":"Not reviewed yet",
-    "29":"Not reviewed yet",
-    "30":"Not reviewed yet",
-    "31":"Not reviewed yet",
-    "32":"Not reviewed yet",
-    "33":"Not reviewed yet",
-    "34":"Not reviewed yet",
-    "35":"Not reviewed yet",
-    "36":"Not reviewed yet",
-    "37":"Not reviewed yet",
-    "38":"Not reviewed yet",
-    "39":"Not reviewed yet",
-    "40":"Not reviewed yet",
-    "41":"Not reviewed yet",
-    "42":"Not reviewed yet",
-    "43":"Not reviewed yet",
-    "44":"Not reviewed yet",
-    "45":"Not reviewed yet",
-    "46":"Not reviewed yet",
-    "47":"Not reviewed yet",
-    "48":"Not reviewed yet",
-    "49":"Not reviewed yet",
-    "50":"Not reviewed yet",
-    "51":"Not reviewed yet",
-    "52":"Not reviewed yet",
-    "53":"Not reviewed yet",
-    "54":"Not reviewed yet",
-    "55":"Not reviewed yet",
-    "56":"Not reviewed yet",
-    "57":"Not reviewed yet",
-    "58":"Not reviewed yet",
-    "59":"Not reviewed yet",
-    "60":"Not reviewed yet",
-    "61":"Not reviewed yet",
-    "62":"Not reviewed yet",
-    "63":"Not reviewed yet",
-    "64":"Not reviewed yet",
-    "65":"Not reviewed yet",
-    "66":"Not reviewed yet",
-    "67":"Not reviewed yet",
-    "68":"Not reviewed yet",
-    "69":"Not reviewed yet",
-    "70":"Not reviewed yet",
-    "71":"Not reviewed yet",
-    "72":"Not reviewed yet",
-    "73":"Not reviewed yet",
-    "74":"Not reviewed yet",
-    "75":"Not reviewed yet",
-    "76":"Not reviewed yet",
-    "77":"Not reviewed yet",
-    "78":"Not reviewed yet",
-    "79":"Not reviewed yet",
-    "80":"Not reviewed yet",
-    "81":"Not reviewed yet",
-    "82":"Not reviewed yet",
-    "83":"Not reviewed yet",
-    "84":"Not reviewed yet",
-    "85":"Not reviewed yet",
-    "86":"Not reviewed yet",
-    "87":"Not reviewed yet",
-    "88":"Not reviewed yet",
-    "89":"Not reviewed yet",
-    "90":"Not reviewed yet",
-    "91":"Not reviewed yet",
-    "92":"Not reviewed yet",
-    "93":"Not reviewed yet",
-    "94":"Not reviewed yet",
-    "95":"Not reviewed yet",
-    "96":"Not reviewed yet",
-    "97":"Not reviewed yet",
-    "98":"Not reviewed yet",
-    "99":"Not reviewed yet",
-    "100":"Not reviewed yet",
-    "101":"Not reviewed yet",
-    "102":"Not reviewed yet",
-    "103":"Not reviewed yet",
-    "104":"Not reviewed yet",
-    "105":"Not reviewed yet",
-    "106":"Not reviewed yet",
-    "107":"Not reviewed yet",
-    "108":"Not reviewed yet",
-    "109":"Not reviewed yet",
-    "110":"Not reviewed yet",
-    "111":"Not reviewed yet",
-    "112":"Not reviewed yet",
-    "113":"Not reviewed yet",
-    "114":"Not reviewed yet",
-    "115":"Not reviewed yet",
-    "116":"Not reviewed yet",
-    "117":"Not reviewed yet",
-    "118":"Not reviewed yet",
-    "119":"Not reviewed yet",
-    "120":"Not reviewed yet",
-    "121":"Not reviewed yet",
-    "122":"Not reviewed yet",
-    "123":"Not reviewed yet",
-    "124":"Not reviewed yet",
-    "125":"Not reviewed yet",
-    "126":"Not reviewed yet",
-    "127":"Not reviewed yet",
-    "128":"Not reviewed yet",
-    "129":"Not reviewed yet",
-    "130":"Not reviewed yet",
-    "131":"Not reviewed yet",
-    "132":"Not reviewed yet",
-    "133":"Not reviewed yet",
-    "134":"Not reviewed yet",
-    "135":"Not reviewed yet",
-    "136":"Not reviewed yet",
-    "137":"Not reviewed yet",
-    "138":"Not reviewed yet",
-    "139":"Not reviewed yet",
-    "140":"Not reviewed yet",
-    "141":"Not reviewed yet",
-    "142":"Not reviewed yet",
-    "143":"Not reviewed yet",
-    "144":"Not reviewed yet",
-    "145":"Not reviewed yet",
-    "146":"Not reviewed yet",
-    "147":"Not reviewed yet",
-    "148":"Not reviewed yet",
-    "149":"Not reviewed yet",
-    "150":"Not reviewed yet",
-    "151":"Not reviewed yet",
-    "152":"Not reviewed yet",
-    "153":"Not reviewed yet",
-    "154":"Not reviewed yet",
-    "155":"Not reviewed yet",
-    "156":"Not reviewed yet",
-    "157":"Not reviewed yet",
-    "158":"Not reviewed yet",
-    "159":"Not reviewed yet",
-    "160":"Not reviewed yet",
-    "161":"Not reviewed yet",
-    "162":"Not reviewed yet",
-    "163":"Not reviewed yet",
-    "164":"Not reviewed yet",
-    "165":"Not reviewed yet",
-    "166":"Not reviewed yet",
-    "167":"Not reviewed yet",
-    "168":"Not reviewed yet",
-    "169":"Not reviewed yet",
-    "170":"Not reviewed yet",
-    "171":"Not reviewed yet",
-    "172":"Not reviewed yet",
-    "173":"Not reviewed yet",
-    "174":"Not reviewed yet",
-    "175":"Not reviewed yet",
-    "176":"Not reviewed yet",
-    "177":"Not reviewed yet",
-    "178":"Not reviewed yet",
-    "179":"Not reviewed yet",
-    "180":"Not reviewed yet",
-    "181":"Not reviewed yet",
-    "182":"Not reviewed yet",
-    "183":"Not reviewed yet",
-    "184":"Not reviewed yet",
-    "185":"Not reviewed yet",
-    "186":"Not reviewed yet",
-    "187":"Not reviewed yet",
-    "188":"Not reviewed yet",
-    "189":"Not reviewed yet",
-    "190":"Not reviewed yet",
-    "191":"Not reviewed yet",
-    "192":"Not reviewed yet",
-    "193":"Not reviewed yet",
-    "194":"Not reviewed yet",
-    "195":"Not reviewed yet",
-    "196":"Not reviewed yet",
-    "197":"Not reviewed yet",
-    "198":"Not reviewed yet",
-    "199":"Not reviewed yet",
-    "200":"Not reviewed yet",
-    "201":"Not reviewed yet",
-    "202":"Not reviewed yet",
-    "203":"Not reviewed yet",
-    "204":"Not reviewed yet",
-    "205":"Not reviewed yet",
-    "206":"Not reviewed yet",
-    "207":"Not reviewed yet",
-    "208":"Not reviewed yet",
-    "209":"Not reviewed yet",
-    "210":"Not reviewed yet",
-    "211":"Not reviewed yet",
-    "212":"Not reviewed yet",
-    "213":"Not reviewed yet",
-    "214":"Not reviewed yet",
-    "215":"Not reviewed yet",
-    "216":"Not reviewed yet",
-    "217":"Not reviewed yet",
-    "218":"Not reviewed yet",
-    "219":"Not reviewed yet",
-    "220":"Not reviewed yet",
-    "221":"Not reviewed yet",
-    "222":"Not reviewed yet",
-    "223":"Not reviewed yet",
-    "224":"Not reviewed yet",
-    "225":"Not reviewed yet",
-    "226":"Not reviewed yet",
-    "227":"Not reviewed yet",
-    "228":"Not reviewed yet",
-    "229":"Not reviewed yet",
-    "230":"Not reviewed yet",
-    "231":"Not reviewed yet",
-    "232":"Not reviewed yet",
-    "233":"Not reviewed yet",
-    "234":"Not reviewed yet",
-    "235":"Not reviewed yet",
-    "236":"Not reviewed yet",
-    "237":"Not reviewed yet",
-    "238":"Not reviewed yet",
-    "239":"Not reviewed yet",
-    "240":"Not reviewed yet",
-    "241":"Not reviewed yet",
-    "242":"Not reviewed yet",
-    "243":"Not reviewed yet",
-    "244":"Not reviewed yet",
-    "245":"Not reviewed yet",
-    "246":"Not reviewed yet",
-    "247":"Not reviewed yet",
-    "248":"Not reviewed yet",
-    "249":"Not reviewed yet",
-    "250":"Not reviewed yet",
-    "251":"Not reviewed yet",
-    "252":"Not reviewed yet",
-    "253":"Not reviewed yet",
-    "254":"Not reviewed yet",
-    "255":"Not reviewed yet",
-    "256":"Not reviewed yet",
-    "257":"Not reviewed yet",
-    "258":"Not reviewed yet",
-    "259":"Not reviewed yet",
-    "260":"Not reviewed yet",
-    "261":"Not reviewed yet",
-    "262":"Not reviewed yet",
-    "263":"Not reviewed yet",
-    "264":"Not reviewed yet",
-    "265":"Not reviewed yet",
-    "266":"Not reviewed yet",
-    "267":"Not reviewed yet"
-  },
-  "Game Engines - Search":{
-    "0":[
+[
+  {
+    "PMID":"25159628",
+    "DOI":"10.1007\/s00464-014-3768-3",
+    "Title":"Extending the reach of stapled anastomosis with a prepared OrVil\u2122 device in laparoscopic oesophageal and gastric cancer surgery.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Anvil"
     ],
-    "1":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"12893718",
+    "DOI":"10.1136\/bjsm.37.4.325",
+    "Title":"Evaluation of cricket helmet performance and comparison with baseball and ice hockey helmets.",
+    "Citations":11,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Anvil"
     ],
-    "2":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40682927",
+    "DOI":"10.1016\/j.actpsy.2025.105252",
+    "Title":"Evaluating planning through play: Exploring the use of mini games to assess planning abilities.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "3":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40624251",
+    "DOI":"10.1038\/s41598-025-08636-5",
+    "Title":"An adaptive dynamics framework for microbial ecology and evolution.",
+    "Citations":36,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "4":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40620765",
+    "DOI":"10.5334\/pb.1365",
+    "Title":"Psychometric Validation of the Gaming Disorder Scale for Adolescents (GADIS-A) in Dutch Among Flemish Adolescents.",
+    "Citations":43,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "5":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40594249",
+    "DOI":"10.1038\/s41598-025-05977-z",
+    "Title":"Fuzzy cooperative game analysis within the international railway freight coalition framework.",
+    "Citations":68,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "6":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40593151",
+    "DOI":"10.1038\/s41598-025-08836-z",
+    "Title":"Construction of evolutionary stability and signal game model for privacy protection in the internet of things.",
+    "Citations":30,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "7":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40554295",
+    "DOI":"10.1016\/j.neunet.2025.107692",
+    "Title":"Counterfactual value decomposition for cooperative multi-agent reinforcement learning.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "8":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40512827",
+    "DOI":"10.1371\/journal.pone.0322888",
+    "Title":"Complexity analysis of a closed-loop supply chain for power battery recycling under government subsidies.",
+    "Citations":53,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "9":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40509829",
+    "DOI":"10.19723\/j.issn.1671-167X.2025.03.015",
+    "Title":"[Three-party game and simulation analysis of health-related information quality regulation in public health emergencies].",
+    "Citations":19,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "10":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40344199",
+    "DOI":"10.2196\/59515",
+    "Title":"Perceptions Toward an Attentional Bias Modification Mobile Game Among Individuals With Low Socioeconomic Status Who Smoke: Qualitative Study.",
+    "Citations":64,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "11":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40315129",
+    "DOI":"10.1063\/5.0270353",
+    "Title":"Evolutionary game dynamics of index insurance with refund or non-refund risk sharing mechanism.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "12":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40173437",
+    "DOI":"10.2196\/66167",
+    "Title":"Digital Ergonomics of NavegApp, a Novel Serious Game for Spatial Cognition Assessment: Content Validity and Usability Study.",
+    "Citations":73,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "13":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40030717",
+    "DOI":"10.1109\/TNNLS.2024.3516693",
+    "Title":"Last-Iterate Convergence to Approximate Nash Equilibria in Multiplayer Imperfect Information Games.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "14":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40030329",
+    "DOI":"10.1109\/TVCG.2024.3507952",
+    "Title":"Motion Editing for Quadruped Characters via Latent Frequency Embedding.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "15":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40019291",
+    "DOI":"10.1021\/acs.analchem.4c06801",
+    "Title":"Vectorial Discrimination of Small Molecules with a Macrocycle Adaptor-Protein Nanopore System and Nanocavity-Dependent, pH Gradient-Controlled Analyte Kinetics.",
+    "Citations":66,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "16":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40011838",
+    "DOI":"10.1186\/s12909-025-06643-8",
+    "Title":"Effectiveness evaluation of a serious game for dental lost wax casting training.",
+    "Citations":39,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "17":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40010014",
+    "DOI":"10.1016\/j.yebeh.2025.110339",
+    "Title":"Evaluating the effectiveness of two video-based educational interventions to enhance knowledge about epilepsy in preschool children.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "18":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39991207",
+    "DOI":"10.1016\/j.heliyon.2025.e42424",
+    "Title":"Selection of emission reduction modes for energy-intensive enterprises under the dynamic carbon cap-and-trade regulation.",
+    "Citations":44,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "19":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39959471",
+    "DOI":"10.1099\/acmi.0.000900.v3",
+    "Title":"Beyond lectures: leveraging competition, peer discussion and real-world scenarios in a digital card game to enhance learning of microbiology and immunology concepts.",
+    "Citations":21,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "20":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39777053",
+    "DOI":"10.1080\/21642850.2024.2444245",
+    "Title":"Representations of in vitro fertilization in the first cycle of IVF in women.",
+    "Citations":56,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "21":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39769093",
+    "DOI":"10.3390\/ijms252413328",
+    "Title":"Novel Selectable Marker Sesquiterpenoid Antibiotic Pentalenolactone.",
+    "Citations":36,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Construct"
     ],
-    "22":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"15943084",
+    "DOI":"10.1109\/mcg.2005.67",
+    "Title":"The Delta3D open source game engine.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Delta3D"
     ],
-    "23":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40251205",
+    "DOI":"10.1038\/s41598-025-96895-7",
+    "Title":"Understanding the sport viewership experience using functional near-infrared spectroscopy.",
+    "Citations":27,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "24":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40030982",
+    "DOI":"10.1109\/TPAMI.2025.3526936",
+    "Title":"Hybrid-Prediction Integrated Planning for Autonomous Driving.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "25":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35874390",
+    "DOI":"10.3389\/fpsyg.2022.918688",
+    "Title":"The (Gami)fictional Ego-Center: Projecting the Location of the Self Into an Avatar.",
+    "Citations":53,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "26":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35250667",
+    "DOI":"10.3389\/fpsyt.2022.813969",
+    "Title":"Emotional Ego- and Altercentric Biases in High-Functioning Autism Spectrum Disorder: Behavioral and Neurophysiological Evidence.",
+    "Citations":74,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "27":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37790900",
+    "DOI":"10.1038\/s42256-022-00520-5",
+    "Title":"Deep learning-based robust positioning for all-weather autonomous driving.",
+    "Citations":49,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "28":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34299809",
+    "DOI":"10.3390\/ijerph18147351",
+    "Title":"Co-Attendance Communities: A Multilevel Egocentric Network Analysis of American Soccer Supporters' Groups.",
+    "Citations":48,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "29":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"33865431",
+    "DOI":"10.1186\/s13034-021-00369-3",
+    "Title":"Development of the child's ego strength scale: an observation-based assessment of the board game behaviors in play therapy in Korea.",
+    "Citations":99,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "30":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"33796008",
+    "DOI":"10.3389\/fnins.2021.638652",
+    "Title":"Testing the Effects of a Preceding Self-Control Task on Decision-Making in Soccer Refereeing.",
+    "Citations":64,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "31":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"32570586",
+    "DOI":"10.3233\/SHTI200369",
+    "Title":"Biostatistics Disruptive Acculturation Through Serious Gaming: A New Hope.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "32":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"32530370",
+    "DOI":"10.1080\/02791072.2020.1773585",
+    "Title":"Effect of Ego Depletion on Interpersonal Trust among Individuals with Substance Use Disorders.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "33":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"32463316",
+    "DOI":"10.1521\/prev.2020.107.2.175",
+    "Title":"Madness and Otherness: Moments of Possibility.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "34":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"30158454",
+    "DOI":"10.3390\/ijerph15091866",
+    "Title":"An Explanatory Model for the Relationship between Motivation in Sport, Victimization, and Video Game Use in Schoolchildren.",
+    "Citations":82,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "35":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"30142302",
+    "DOI":"10.1080\/00224545.2018.1505706",
+    "Title":"Ego-depletion increases selfish decision making, but may also increase self-conflict and regret about those decisions.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "36":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"28222114",
+    "DOI":"10.1371\/journal.pone.0171472",
+    "Title":"Social networks and inference about unknown events: A case of the match between Google's AlphaGo and Sedol Lee.",
+    "Citations":79,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "37":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"27247687",
+    "DOI":"10.5964\/ejop.v11i4.934",
+    "Title":"Emotional, Cognitive and Self-Enhancement Processes in Aggressive Behavior After Interpersonal Rejection and Exclusion.",
+    "Citations":33,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "38":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"26779106",
+    "DOI":"10.3389\/fpsyg.2015.02008",
+    "Title":"The Effect of Distance on Moral Engagement: Event Related Potentials and Alpha Power are Sensitive to Perspective in a Virtual Shooting Task.",
+    "Citations":66,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "39":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"25999888",
+    "DOI":"10.3389\/fpsyg.2015.00572",
+    "Title":"In intergroup conflict, self-sacrifice is stronger among pro-social individuals, and parochial altruism emerges especially among cognitively taxed individuals.",
+    "Citations":72,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "40":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"25698700",
+    "DOI":"10.1093\/scan\/nsv020",
+    "Title":"Reflected glory and failure: the role of the medial prefrontal cortex and ventral striatum in self vs other relevance during advice-giving outcomes.",
+    "Citations":35,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "41":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"25552567",
+    "DOI":"10.1093\/scan\/nsu154",
+    "Title":"Medial prefrontal cortex reacts to unfairness if this damages the self: a tDCS study.",
+    "Citations":44,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "42":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"25498787",
+    "DOI":"10.1016\/j.biopsycho.2014.11.011",
+    "Title":"Self-affirmation facilitates cardiovascular recovery following interpersonal evaluation.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "EGO"
     ],
-    "43":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40644271",
+    "DOI":"10.1109\/ICORR66766.2025.11062942",
+    "Title":"Challenge-Based Adaptation of Exoskeleton Assistance and Gamified Biofeedback Enables Automated Gait Rehabilitation.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "44":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40438542",
+    "DOI":"10.1098\/rsos.250704",
+    "Title":"Non-compliance with and non-enforcement of UK loot box industry self-regulation on the Apple App Store: a longitudinal study on poor implementation.",
+    "Citations":82,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Enforce",
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40253548",
+    "DOI":"10.1007\/s00246-025-03862-0",
+    "Title":"Association of Screen Time Activities with Lifestyle Behaviors in Middle-School Children.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "45":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40048958",
+    "DOI":"10.1016\/j.copsyc.2025.102022",
+    "Title":"Children's developing understanding of social norms.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "46":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38318044",
+    "DOI":"10.1016\/j.heliyon.2024.e24884",
+    "Title":"A conceptional game theory analysis of environmental public interest litigation of China.",
+    "Citations":142,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "47":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38216621",
+    "DOI":"10.1038\/s41598-023-50414-8",
+    "Title":"People punish defection, not failures to conform to the majority.",
+    "Citations":73,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "48":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37939469",
+    "DOI":"10.1016\/j.jenvman.2023.119449",
+    "Title":"Vertical decentralization, environmental regulation, and enterprise pollution: An evolutionary game analysis.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "49":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37593633",
+    "DOI":"10.1016\/j.heliyon.2023.e18850",
+    "Title":"Research on immature wheat harvesting behavior of farmers from the perspective of food security: An evolutionary game based analysis.",
+    "Citations":56,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "50":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37079207",
+    "DOI":"10.1007\/s13280-023-01863-y",
+    "Title":"Promoting enforcement of non-lead hunting ammunition regulations and compliance in Europe and North America.",
+    "Citations":55,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "51":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37055546",
+    "DOI":"10.1038\/s41598-023-33167-2",
+    "Title":"Discriminatory punishment undermines the enforcement of group cooperation.",
+    "Citations":53,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "52":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38603448",
+    "DOI":"10.1177\/00178969221147609",
+    "Title":"The Good Behaviour Game: Maintaining students' physical distancing in physical education classes during the COVID-19 pandemic.",
+    "Citations":41,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "53":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36442747",
+    "DOI":"10.1016\/j.neuroscience.2022.11.023",
+    "Title":"Modulating the Activity of the Right Dorsolateral Prefrontal Cortex Alters Altruism in Situations of Advantageous Inequity.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "54":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35866176",
+    "DOI":"10.1002\/cpe.5511",
+    "Title":"Enforcing trustworthy cloud SLA with witnesses: A game theory-based model using smart contracts.",
+    "Citations":29,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "55":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35810777",
+    "DOI":"10.1016\/j.jtbi.2022.111211",
+    "Title":"Adapting paths against zero-determinant strategies in repeated prisoner's dilemma games.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "56":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35556180",
+    "DOI":"10.1007\/s00285-022-01758-8",
+    "Title":"Payoff landscapes and the robustness of selfish optimization in iterated games.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "57":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35338188",
+    "DOI":"10.1038\/s41598-022-08750-8",
+    "Title":"Misperception influence on zero-determinant strategies in iterated Prisoner's Dilemma.",
+    "Citations":39,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "58":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34996005",
+    "DOI":"10.1016\/j.addbeh.2021.107229",
+    "Title":"A speed-of-play limit reduces gambling expenditure in an online roulette game: Results of an online experiment.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "59":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34969840",
+    "DOI":"10.1073\/pnas.2112521118",
+    "Title":"Children across societies enforce conventional norms but in culturally variable ways.",
+    "Citations":63,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "60":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34964895",
+    "DOI":"10.1093\/scan\/nsab124",
+    "Title":"Inter-brain synchronization is weakened by the introduction of external punishment.",
+    "Citations":46,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "61":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34741826",
+    "DOI":"10.1016\/j.jecp.2021.105303",
+    "Title":"Preschoolers agree to and enforce prosocial, but not selfish, sharing norms.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Enforce"
     ],
-    "62":[
-      "Enforce"
-    ],
-    "63":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37465264",
+    "DOI":"10.21980\/J8J343",
+    "Title":"Two-Screen Virtual Board Game Didactic for Teaching Wilderness and Environmental Medicine Topics to Emergency Medicine Residents.",
+    "Citations":30,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Frostbite"
     ],
-    "64":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"20071262",
+    "DOI":"10.1109\/TITB.2009.2038995",
+    "Title":"Feasibility of modified remotely monitored in-home gaming technology for improving hand function in adolescents with cerebral palsy.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Java 3D"
     ],
-    "65":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35944270",
+    "DOI":"10.1089\/g4h.2022.0046",
+    "Title":"\"STAR WARS: The first Jedi\" Gamification Program: Use of a Mobile App to Improve Body Composition in College Students.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Jedi"
     ],
-    "66":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35421985",
+    "DOI":"10.1186\/s12913-022-07801-0",
+    "Title":"What is needed to sustain improvements in hospital practices post-COVID-19? a qualitative study of interprofessional dissonance in hospital infection prevention and control.",
+    "Citations":65,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "LyN"
     ],
-    "67":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35323358",
+    "DOI":"10.3390\/curroncol29030158",
+    "Title":"Novel, First-in-Human, Oral PCLX-001 Treatment in a Patient with Relapsed Diffuse Large B-Cell Lymphoma.",
+    "Citations":6,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "LyN"
     ],
-    "68":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"28526289",
+    "DOI":"10.1016\/j.jhevol.2017.03.002",
+    "Title":"The Howieson's Poort fauna from Sibudu Cave: Documenting continuity and change within Middle Stone Age industries.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "LyN"
     ],
-    "69":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"23413274",
+    "DOI":"10.1177\/0363546513476265",
+    "Title":"Video incident analysis of concussions in boys' high school lacrosse.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "LyN"
     ],
-    "70":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"17204586",
+    "DOI":"10.1177\/0363546506293900",
+    "Title":"Head, face, and eye injuries in scholastic and collegiate lacrosse: a 4-year prospective study.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "LyN"
     ],
-    "71":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40713891",
+    "DOI":"10.1186\/s40359-025-03154-5",
+    "Title":"The impact of game character identification on otome game players' mate selection criteria.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "72":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40635016",
+    "DOI":"10.1186\/s40359-025-02865-z",
+    "Title":"The impact of a love language game intervention on relationship satisfaction among Chinese couples in China and Malaysia: examining the role of individualism-collectivism.",
+    "Citations":33,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "73":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40626658",
+    "DOI":"10.1080\/02640414.2025.2526290",
+    "Title":"Barriers and facilitators to participation in women's and girls' rugby: A mixed-methods study.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "74":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40559684",
+    "DOI":"10.3390\/sports13060172",
+    "Title":"A Multi-Stakeholder Evaluation of a Walking Football Group for People with Dementia Developed in Partnership with a Premier League Club.",
+    "Citations":69,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "75":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40459935",
+    "DOI":"10.1556\/2006.2025.00044",
+    "Title":"Love at first glance: Imbalanced processing to\u00a0gaming and natural rewards in internet gaming\u00a0disorder.",
+    "Citations":68,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "76":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39934589",
+    "DOI":"10.1007\/s10508-025-03082-w",
+    "Title":"Feeling Love and Lust: An Examination of Individualistic and Mutualistic Erotic Talk.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "77":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39457831",
+    "DOI":"10.3390\/bs14100959",
+    "Title":"Do Chinese Preschool Children Love Their Motherland? Evidence from the Game-Based Assessment.",
+    "Citations":46,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "78":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39092077",
+    "DOI":"10.3389\/fsoc.2024.1412154",
+    "Title":"Beyond the Iron Throne: exploring the representation of homosexuality in the series Game of Thrones.",
+    "Citations":44,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "79":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38916098",
+    "DOI":"10.1097\/SLA.0000000000006414",
+    "Title":"For the Love of the Game: Calculating the Premium Associated With Academic Surgical Practice.",
+    "Citations":37,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "80":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38180973",
+    "DOI":"10.1371\/journal.pone.0288330",
+    "Title":"Are you thinking what I'm thinking? Perspective-taking in a language game.",
+    "Citations":54,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "81":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38070886",
+    "DOI":"10.1136\/bmjopen-2023-077022",
+    "Title":"Specialist healthcare services for concussion\/mild traumatic brain injury in England: a consensus statement using modified Delphi methodology.",
+    "Citations":77,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "82":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38025950",
+    "DOI":"10.3897\/zookeys.1183.111330",
+    "Title":"\ufeffName game conundrum: identical specific epithets in Microgastrinae (Hymenoptera, Braconidae).",
+    "Citations":39,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "83":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37793224",
+    "DOI":"10.1016\/j.actpsy.2023.104049",
+    "Title":"Problematic online anime (animation) use: It's relationship with viewers' satisfaction with life, emotions, and emotion regulation.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "84":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37754053",
+    "DOI":"10.3390\/bs13090775",
+    "Title":"The Relationship between Technology Addiction and Attitude toward Reading: An Investigation on Pre-Service Teachers.",
+    "Citations":71,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "85":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37439275",
+    "DOI":"10.1111\/tops.12683",
+    "Title":"Human Performance in Competitive and Collaborative Human-Machine Teams.",
+    "Citations":44,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "86":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37366745",
+    "DOI":"10.3390\/bs13060494",
+    "Title":"A Face to Love or Trust.",
+    "Citations":27,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "87":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37300239",
+    "DOI":"10.1177\/19322968231179730",
+    "Title":"Uses and Considerations for Cinematic Virtual Reality in Health Care.",
+    "Citations":16,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "88":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37239304",
+    "DOI":"10.3390\/brainsci13050833",
+    "Title":"Increased Interpersonal Brain Synchronization in Romantic Couples Is Associated with Higher Honesty: An fNIRS Hyperscanning Study.",
+    "Citations":93,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "89":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37138539",
+    "DOI":"10.1177\/19322968231171136",
+    "Title":"Feasibility of a Cinematic-Virtual Reality Training Program for Health Professional Students: A Single-Arm Pre-Post Study.",
+    "Citations":39,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "90":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37114917",
+    "DOI":"10.1177\/19322968231171586",
+    "Title":"Cinematic Virtual Reality for Educating Health Care Providers About Type 2 Diabetes, Disability, and Elder Abuse and Neglect: A Pilot Study.",
+    "Citations":32,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "L\u00d6VE"
     ],
-    "91":[
-      "Marmalade"
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"27139405",
+    "DOI":"doi not found",
+    "Title":"Evaluation of Game Engines for Cross-Platform Development of Mobile Serious Games for Health.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Marmalade",
+      "Panda3D",
+      "Source",
+      "Virtools",
+      "S&box"
     ],
-    "92":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"23549683",
+    "DOI":"10.3758\/s13428-013-0322-5",
+    "Title":"PandaEPL: a library for programming spatial navigation experiments.",
+    "Citations":24,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Panda3D"
     ],
-    "93":[
-      "Panda3D"
-    ],
-    "94":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34960514",
+    "DOI":"10.3390\/s21248414",
+    "Title":"A New Socially Assistive Robot with Integrated Serious Games for Therapies with Children with Autism Spectrum Disorder and Down Syndrome: A Pilot Study.",
+    "Citations":32,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Pygame"
     ],
-    "95":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40592166",
+    "DOI":"10.1016\/j.jenvman.2025.126335",
+    "Title":"Evaluating treatment units for the optimization of large textile WWTPs: A game theoretic approach.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "96":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40575736",
+    "DOI":"10.18332\/tid\/203937",
+    "Title":"The impact of gamification on smoking cessation: A systematic review and meta-analysis.",
+    "Citations":44,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "97":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40512852",
+    "DOI":"10.1126\/sciadv.adt5743",
+    "Title":"Mycorrhizal symbioses and tree diversity in global forest communities.",
+    "Citations":72,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "98":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40408327",
+    "DOI":"10.1371\/journal.pone.0318372",
+    "Title":"Autonomous agents: Augmenting visual information with raw audio data.",
+    "Citations":43,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Q",
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40388689",
+    "DOI":"10.1080\/02701367.2025.2496263",
+    "Title":"Gaelic Football Coaches' Use of a Game-Based Approach Impacts Game Performance, Session Characteristics, and Player Perceptions.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "99":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40388477",
+    "DOI":"10.1371\/journal.pone.0323978",
+    "Title":"Effect of simulated handball match-induced fatigue on isokinetic hamstring-to-quadriceps ratio and evertor-to-invertor ratio in professional players.",
+    "Citations":55,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "100":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40372990",
+    "DOI":"10.1371\/journal.pone.0320777",
+    "Title":"Combining meta reinforcement learning with neural plasticity mechanisms for improved AI performance.",
+    "Citations":59,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "101":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40338945",
+    "DOI":"10.1063\/5.0266460",
+    "Title":"Evolution of cooperation with Q-learning: The impact of information perception.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "102":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40333488",
+    "DOI":"10.3390\/ma18081813",
+    "Title":"The Design and Fabrication of Shear-Mode Piezoelectric Accelerometers with High Bandwidth Using High Piezoelectric g-Coefficient NKN-Based Ceramics.",
+    "Citations":35,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "103":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40311528",
+    "DOI":"10.1016\/j.plaphy.2025.109948",
+    "Title":"Unraveling a century-old mystery: The role of Ophiostoma quercus in oak decline.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "104":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40308813",
+    "DOI":"10.1177\/20552076251339263",
+    "Title":"Assessment of causality between computer game playing and neuropsychiatric disorders: A bidirectional Mendelian randomization study.",
+    "Citations":53,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "105":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40283084",
+    "DOI":"10.3390\/life15040529",
+    "Title":"Sports Injuries in Basketball, Handball, and Volleyball Players: Systematic Review.",
+    "Citations":90,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "106":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40273071",
+    "DOI":"10.1371\/journal.pone.0319953",
+    "Title":"Intelligent anti-jamming communication technology with electromagnetic spectrum feature cognition.",
+    "Citations":30,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "107":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40272428",
+    "DOI":"10.1080\/02701367.2025.2488847",
+    "Title":"Design and Validation of a Questionnaire for the Assessment of Tennis Players' Tactical Skills (TST).",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "108":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40250019",
+    "DOI":"10.1016\/j.aap.2025.108034",
+    "Title":"A game theoretical model to examine pedestrian behaviour and safety on unsignalised slip lanes using AI-based video analytics.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "109":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40233403",
+    "DOI":"10.1063\/5.0267846",
+    "Title":"Promoting cooperation in the voluntary prisoner's dilemma game via reinforcement learning.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "110":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40070897",
+    "DOI":"10.3389\/fpsyg.2025.1524645",
+    "Title":"A meta-analysis of the impact of technology related factors on students' academic performance.",
+    "Citations":144,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "111":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40070127",
+    "DOI":"10.1177\/17470218251329230",
+    "Title":"'Some like it cold'. On the association between the physical and affective notion of warmth.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "112":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40053708",
+    "DOI":"10.2196\/64004",
+    "Title":"A Self-Adaptive Serious Game to Improve Motor Learning Among Older Adults in Immersive Virtual Reality: Short-Term Longitudinal Pre-Post Study on Retention and Transfer.",
+    "Citations":80,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "113":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40022295",
+    "DOI":"10.1177\/17470218251326501",
+    "Title":"Facial attractiveness influenced cooperative behavior in the Stag Hunt game: Evidence from neural electrophysiology.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Q"
     ],
-    "114":[
-      "Q"
-    ],
-    "115":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40475756",
+    "DOI":"10.3389\/fnbeh.2025.1561548",
+    "Title":"The impact of online games on creativity and the role of imagination.",
+    "Citations":89,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Roblox"
     ],
-    "116":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38761770",
+    "DOI":"10.1016\/j.comppsych.2024.152500",
+    "Title":"Going beyond video game consumption when considering Internet Gaming Disorder.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Roblox"
     ],
-    "117":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38446183",
+    "DOI":"10.1097\/MOP.0000000000001341",
+    "Title":"Caring for screenagers (part 2): a pediatrician's primer on popular games and educational tools.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Roblox"
     ],
-    "118":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40677251",
+    "DOI":"10.1177\/30502225251357044",
+    "Title":"A Serious Game \"DiaPed\": Impact on Therapeutic Education for Children with Type 1 Diabetes in Tunisia.",
+    "Citations":27,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "119":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40053743",
+    "DOI":"10.2196\/54075",
+    "Title":"Identifying Key Principles and Commonalities in Digital Serious Game Design Frameworks: Scoping Review.",
+    "Citations":113,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "120":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40007197",
+    "DOI":"10.1111\/pcn.13804",
+    "Title":"Predicting social anxiety disorder based on communication logs and social network data from a massively multiplayer online game: Using a graph neural network.",
+    "Citations":62,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "121":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39718632",
+    "DOI":"10.1007\/s00484-024-02827-x",
+    "Title":"Novel environmental variables help explain winter weather effects on activity and habitat selection of greater sage-grouse along the border of Colorado and Wyoming, USA.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "122":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39702488",
+    "DOI":"10.1038\/d41586-024-04205-4",
+    "Title":"Skin in the game - locally made antibodies fight resident bacteria.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "123":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39474474",
+    "DOI":"10.1002\/ece3.70213",
+    "Title":"Predator-specific mortality of sage-grouse nests based on predator DNA on eggshells.",
+    "Citations":110,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "124":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39441503",
+    "DOI":"10.1007\/s10802-024-01259-w",
+    "Title":"A Pilot Controlled Trial of Relaxation Training Combined with a Video Game Reinforcing Emotional Regulation to Improve Anger Management in Children and Adolescents.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "125":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39429545",
+    "DOI":"10.1177\/23779608241290683",
+    "Title":"The Treasures of Renal Isle: Evaluating a Gamified Module While Enhancing Student Learning.",
+    "Citations":9,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "126":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38933688",
+    "DOI":"10.1111\/acv.12899",
+    "Title":"Beyond overlap: Considering habitat preference and fitness outcomes in the umbrella species concept.",
+    "Citations":123,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "127":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38903195",
+    "DOI":"10.1177\/23779608241256998",
+    "Title":"Using Gaming to Promote Vaccination Among Youth: A Systematic Review.",
+    "Citations":46,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "128":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38333516",
+    "DOI":"10.1177\/2050313X241229859",
+    "Title":"Repeated foreign body ingestion as a dynamic game: A case report.",
+    "Citations":5,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "129":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38277191",
+    "DOI":"10.2196\/44029",
+    "Title":"Testing a Behavioral Activation Gaming App for Depression During Pregnancy: Multimethod Pilot Study.",
+    "Citations":54,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "130":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37486882",
+    "DOI":"10.7589\/JWD-D-22-00164",
+    "Title":"Using Opportunistic Samples to Monitor West Nile Virus Infection Status in Greater Sage-grouse (Centrocercus urophasianus) in Wyoming, USA (2020-22).",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "131":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37196763",
+    "DOI":"10.1016\/j.mcpro.2023.100569",
+    "Title":"An Inflection Point in Cancer Protein Biomarkers: What was and What's Next.",
+    "Citations":139,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "132":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37096383",
+    "DOI":"10.1111\/mec.16960",
+    "Title":"Ancient bears provide insights into Pleistocene ice age refugia in Southeast Alaska.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "133":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37038512",
+    "DOI":"10.1002\/ece3.9933",
+    "Title":"Effects of large-scale disturbance on animal space use: Functional responses by greater sage-grouse after megafire.",
+    "Citations":99,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "134":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36865753",
+    "DOI":"10.1177\/23779608231158158",
+    "Title":"Prevalence and Risk Factors of Internet Gaming Disorder Under the COVID-19 Pandemic Among University Students in Macao.",
+    "Citations":71,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "135":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36643208",
+    "DOI":"10.1177\/20503121221147842",
+    "Title":"The relationship between playing video games on mobile devices and well-being in a sample of Japanese adolescents and adults.",
+    "Citations":48,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "136":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35972323",
+    "DOI":"10.1111\/mec.16658",
+    "Title":"Genetic drift drives rapid speciation of an Arctic insular endemic shrew (Sorex pribilofensis).",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "137":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35666863",
+    "DOI":"10.1073\/pnas.2200016119",
+    "Title":"Insights into bear evolution from a Pleistocene polar bear genome.",
+    "Citations":66,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "SAGE"
     ],
-    "138":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39587220",
+    "DOI":"10.1038\/s41598-024-80554-4",
+    "Title":"Development of flame retardant slow release insecticides paint and testing its efficacy for four years against dengue and malaria vectors.",
+    "Citations":43,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "139":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39460200",
+    "DOI":"10.3390\/s24206720",
+    "Title":"The Power of Play: Strategies for Enhancing Development in Children with Autism Spectrum Disorders.",
+    "Citations":30,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "140":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39409396",
+    "DOI":"10.3390\/s24196358",
+    "Title":"Using the Nintendo\u2122 Wii to Improve Physical Function and Reduce the Risk of Falls in Older Adults: A Randomized Controlled Clinical Trial.",
+    "Citations":41,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "141":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39259628",
+    "DOI":"10.1109\/TVCG.2024.3456347",
+    "Title":"D-Tour: Semi-Automatic Generation of Interactive Guided Tours for Visualization Dashboard Onboarding.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "142":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39084887",
+    "DOI":"10.6224\/JN.202408_71(4).02",
+    "Title":"[New Horizons for Clinical Practice and Competence: Applying Game-Based Learning in Nursing Education].",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "143":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38688980",
+    "DOI":"10.1038\/s41598-024-60791-3",
+    "Title":"Experiments as Code and its application to VR studies in human-building interaction.",
+    "Citations":92,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "144":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38585481",
+    "DOI":"10.3389\/fpsyt.2024.1377231",
+    "Title":"Comparing the effectiveness of game literacy education and game coding education in improving problematic internet gaming.",
+    "Citations":39,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "145":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38450588",
+    "DOI":"10.1002\/brb3.3416",
+    "Title":"Emotions and motivations of gambling: A comparison between scratch card, slot-machines, and casino gamblers.",
+    "Citations":37,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "146":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38275977",
+    "DOI":"10.3390\/jintelligence12010001",
+    "Title":"Checking Different Video Game Mechanics to Assess Cognitive Abilities in Groups with and without Emotional Problems.",
+    "Citations":42,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "147":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37547229",
+    "DOI":"10.3389\/frai.2023.804682",
+    "Title":"Learning to play against any mixture of opponents.",
+    "Citations":51,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "148":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37286649",
+    "DOI":"10.1038\/s41586-023-06004-9",
+    "Title":"Faster sorting algorithms discovered using deep reinforcement learning.",
+    "Citations":72,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "149":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37270469",
+    "DOI":"10.1007\/s10899-023-10216-z",
+    "Title":"Am I Winning or Losing? Probing the Appraisal of Partial Wins via Response Vigor.",
+    "Citations":65,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "150":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36871586",
+    "DOI":"10.1098\/rstb.2021.0484",
+    "Title":"How video calls affect mimicry and trust during interactions.",
+    "Citations":100,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "151":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36454847",
+    "DOI":"10.1126\/science.add4679",
+    "Title":"Mastering the game of Stratego with model-free multiagent reinforcement learning.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "152":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36189682",
+    "DOI":"10.1080\/02699931.2022.2128064",
+    "Title":"What we bet on is not only tangible money, but also good mood.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "153":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36125924",
+    "DOI":"10.1556\/2006.2022.00063",
+    "Title":"Development and validation of a prediction model for online gambling problems based on players' account data.",
+    "Citations":65,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "154":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35731749",
+    "DOI":"10.1109\/TCYB.2022.3179950",
+    "Title":"PLC-Informed Distributed Game Theoretic Learning of Energy-Optimal Production Policies.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "155":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35445898",
+    "DOI":"10.1007\/s10899-022-10125-7",
+    "Title":"Push Outcomes Bias Perceptions of Scratch Card Games.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "156":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35044578",
+    "DOI":"10.1007\/s10899-021-10103-5",
+    "Title":"Using Icon Arrays to Communicate Gambling Information Reduces the Appeal of Scratch Card Games.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "157":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34780244",
+    "DOI":"10.1037\/xlm0001071",
+    "Title":"A decay-based account of learning and adaptation in complex skills.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Scratch"
     ],
-    "158":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40702266",
+    "DOI":"10.1038\/s44271-025-00292-9",
+    "Title":"Effortful leisure is a source of meaning in everyday life.",
+    "Citations":136,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "159":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40692971",
+    "DOI":"10.1002\/ece3.71573",
+    "Title":"Faeces, Feathers and Flight: Understanding of Escape Behaviour in Incubating Eurasian Woodcocks (Scolopax\u00a0rusticola).",
+    "Citations":50,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "160":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40668896",
+    "DOI":"10.1126\/scirobotics.adt3093",
+    "Title":"Surgical embodied intelligence for generalized task autonomy in laparoscopic robot-assisted surgery.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "161":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40657727",
+    "DOI":"10.7554\/eLife.104008",
+    "Title":"Self-other generalisation shapes social interaction and is disrupted in borderline personality disorder.",
+    "Citations":68,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "162":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40638062",
+    "DOI":"10.1007\/s13280-025-02219-4",
+    "Title":"EU regulation: An unprecedented opportunity to protect children's and wildlife health from the toxic effects of lead ammunition.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "163":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40635077",
+    "DOI":"10.1186\/s13567-025-01563-3",
+    "Title":"Blastocystis in free-ranging wild ruminant species across the Iberian Peninsula.",
+    "Citations":60,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "164":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40632724",
+    "DOI":"10.1371\/journal.pone.0326928",
+    "Title":"Investigating the long-term impact of misinformation interventions in upper secondary education.",
+    "Citations":63,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "165":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40630505",
+    "DOI":"10.1177\/23259671251352199",
+    "Title":"Epidemiology of Elbow Medial Ulnar Collateral Ligament Surgeries in Major and Minor League Baseball Pitchers: A Descriptive Study of 2281 Cases.",
+    "Citations":37,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "166":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40616885",
+    "DOI":"10.1016\/j.neunet.2025.107803",
+    "Title":"Intracortical functional connectivity during deep sleep reveals prosocial preferences.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "167":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40607243",
+    "DOI":"10.1177\/23259671241312651",
+    "Title":"Minimum 10-Year Outcomes of Arthroscopic Capsulolabral Repair for Posterior Shoulder Instability.",
+    "Citations":25,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "168":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40594148",
+    "DOI":"10.1038\/s41598-025-05316-2",
+    "Title":"Understanding the evolutionary processes and causes of groundwater drought using an interpretable machine learning model.",
+    "Citations":79,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "169":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40577545",
+    "DOI":"10.1121\/10.0036888",
+    "Title":"Combined assessment of auditory distance perception and externalization.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "170":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40577490",
+    "DOI":"10.1371\/journal.pntd.0012893",
+    "Title":"Anthrax, livelihood vulnerability, and food insecurity in selected game management areas in Zambia: A mixed-methods analysis at the human-wildlife-livestock interface.",
+    "Citations":34,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "171":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40574996",
+    "DOI":"10.17159\/2078-516X\/2025\/v37i1a19947",
+    "Title":"Differences in playing experience, anthropometry and performance measures between Under 16 schoolboy rugby players classified as starters or non-starters: A comparative cross-sectional study.",
+    "Citations":20,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "172":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40532004",
+    "DOI":"10.1126\/sciadv.adu7743",
+    "Title":"How media competition fuels the spread of misinformation.",
+    "Citations":82,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "173":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40498691",
+    "DOI":"10.1371\/journal.pone.0325462",
+    "Title":"How do the effects of toxicity in competitive online video games vary by source and match outcome?",
+    "Citations":41,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "174":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40460525",
+    "DOI":"10.1016\/j.jenvman.2025.126069",
+    "Title":"Blockchain-enabled carbon emission trading data quality regulation: A tripartite evolutionary game analysis.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "175":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40450541",
+    "DOI":"10.1111\/cobi.70056",
+    "Title":"Socioeconomic drivers of wild meat consumption in the city of Iquitos, Peru.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "176":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40457563",
+    "DOI":"10.1017\/S1368980025100487",
+    "Title":"The impact of food marketing via video game live streaming on snack intake in adolescents: a randomised controlled trial.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Source"
     ],
-    "177":[
-      "Source"
-    ],
-    "178":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"23985184",
+    "DOI":"10.5993\/AJHB.37.3.10",
+    "Title":"Energy cost and game flow of 5 exer-games in trained players.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "StepMania"
     ],
-    "179":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40489391",
+    "DOI":"10.1519\/JSC.0000000000005145",
+    "Title":"Change of Direction Density: A Novel Consideration of Consecutive Changes of Direction in Elite Youth Soccer.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "180":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39946363",
+    "DOI":"10.1371\/journal.pone.0317414",
+    "Title":"The machine learning algorithm based on decision tree optimization for pattern recognition in track and field sports.",
+    "Citations":35,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "181":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39618490",
+    "DOI":"10.1021\/acs.chemmater.4c02351",
+    "Title":"Unveiling Surface Chemistry of Ultrafast-Sintered LLZO Solid-State Electrolytes for High-Performance Li-Garnet Solid-State Batteries.",
+    "Citations":52,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "182":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39524323",
+    "DOI":"10.1177\/23259671241274137",
+    "Title":"Normative In-Game Data for Collegiate Baseball Pitchers Using Markerless Tracking Technology.",
+    "Citations":23,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "183":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39324501",
+    "DOI":"10.1177\/03635465241279406",
+    "Title":"Tall and Fall Versus Drop and Drive Strategy in College Baseball Pitchers for Velocity and Elbow Valgus Torque.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "184":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39120203",
+    "DOI":"10.3390\/healthcare12151500",
+    "Title":"A Study on the Effectiveness of VR Rehabilitation Training Content for Older Individuals with Total Knee Replacement: Pilot Study.",
+    "Citations":29,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "185":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39013927",
+    "DOI":"10.1038\/s41598-024-66727-1",
+    "Title":"Smartphone usage during walking decreases the positive persistency in gait cycle variability.",
+    "Citations":64,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "186":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38997475",
+    "DOI":"10.1038\/s41371-024-00932-3",
+    "Title":"Wearable cuffless blood pressure tracking: when will they be good enough?",
+    "Citations":22,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "187":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38601574",
+    "DOI":"10.1016\/j.heliyon.2024.e28901",
+    "Title":"Risk of using smartphones while walking for digital natives in realistic environments: Effects of cognitive-motor interference.",
+    "Citations":75,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "188":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38123606",
+    "DOI":"10.1038\/s41598-023-49382-w",
+    "Title":"Development and implementation of the frog-in-maze game to study upper limb movement in people with Parkinson's disease.",
+    "Citations":42,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "189":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37802081",
+    "DOI":"10.1055\/a-2134-3456",
+    "Title":"Range of Motion Adaptations During a Simulated Game Exposure in Softball Pitchers.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "190":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37648695",
+    "DOI":"10.1038\/s41598-023-41290-3",
+    "Title":"Game-based intradialytic non-weight-bearing exercise training on gait speed and balance in older adults with diabetes: a single-blind randomized controlled trial.",
+    "Citations":37,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "191":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"36254725",
+    "DOI":"10.1080\/14763141.2022.2133006",
+    "Title":"Game-play affects hamstring but not adductor muscle fibre mechanics in elite U20 basketball athletes.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "192":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"35174323",
+    "DOI":"10.3389\/fspor.2021.789321",
+    "Title":"\"I'm a Referee, Not a Female Referee\": The Experiences of Women Involved in Football as Coaches and Referees.",
+    "Citations":72,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "193":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34631254",
+    "DOI":"10.26603\/001c.28086",
+    "Title":"Grip Strength Measurement in Baseball Pitchers: A Clinical Examination to Indicate Stride Length Inefficiency.",
+    "Citations":29,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "194":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"34134606",
+    "DOI":"10.1080\/14763141.2021.1941229",
+    "Title":"The influence of a simulated game on muscular strength in female high-school and collegiate softball pitchers.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "195":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"32935627",
+    "DOI":"10.1080\/02640414.2020.1816287",
+    "Title":"Applying the brakes in tennis: How entry speed affects the movement and hitting kinematics of professional tennis players.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "196":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"31905407",
+    "DOI":"10.1055\/a-1062-6475",
+    "Title":"Effects of a Simulated Game on Pitching Kinematics in Youth Softball Pitcher.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "197":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"31809646",
+    "DOI":"10.1080\/02640414.2019.1699987",
+    "Title":"The practical application of a method of analysing the variability of within-step accelerations collected via athlete tracking devices.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "198":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"31779179",
+    "DOI":"10.3390\/nu11122880",
+    "Title":"Effects of Vitamin D and Calcium Fortified Yogurts on Gait, Cognitive Performances, and Serum 25-Hydroxyvitamin D Concentrations in Older Community-Dwelling Females: Results from the GAit, MEmory, Dietary and Vitamin D (GAME-D2) Randomized Controlled Trial.",
+    "Citations":36,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Stride"
     ],
-    "199":[
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37286971",
+    "DOI":"10.1186\/s12909-023-04231-2",
+    "Title":"Twine virtual patient games as an online resource for undergraduate diabetes acute care education.",
+    "Citations":15,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
       "Twine"
     ],
-    "200":[
-      "Unity"
-    ],
-    "201":[
-      "Unity"
-    ],
-    "202":[
-      "Unity"
-    ],
-    "203":[
-      "Unity"
-    ],
-    "204":[
-      "Unity"
-    ],
-    "205":[
-      "Unity"
-    ],
-    "206":[
-      "Unity"
-    ],
-    "207":[
-      "Unity"
-    ],
-    "208":[
-      "Unity"
-    ],
-    "209":[
-      "Unity"
-    ],
-    "210":[
-      "Unity"
-    ],
-    "211":[
-      "Unity"
-    ],
-    "212":[
-      "Unity"
-    ],
-    "213":[
-      "Unity"
-    ],
-    "214":[
-      "Unity"
-    ],
-    "215":[
-      "Unity"
-    ],
-    "216":[
-      "Unity"
-    ],
-    "217":[
-      "Unity"
-    ],
-    "218":[
-      "Unity"
-    ],
-    "219":[
-      "Unity"
-    ],
-    "220":[
-      "Unreal Engine"
-    ],
-    "221":[
-      "Unreal Engine"
-    ],
-    "222":[
-      "Unreal Engine"
-    ],
-    "223":[
-      "Unreal Engine"
-    ],
-    "224":[
-      "Unreal Engine"
-    ],
-    "225":[
-      "Unreal Engine"
-    ],
-    "226":[
-      "Unreal Engine"
-    ],
-    "227":[
-      "Virtools"
-    ],
-    "228":[
-      "Vision"
-    ],
-    "229":[
-      "Vision"
-    ],
-    "230":[
-      "Vision"
-    ],
-    "231":[
-      "Vision"
-    ],
-    "232":[
-      "Vision"
-    ],
-    "233":[
-      "Vision"
-    ],
-    "234":[
-      "Vision"
-    ],
-    "235":[
-      "Vision"
-    ],
-    "236":[
-      "Vision"
-    ],
-    "237":[
-      "Vision"
-    ],
-    "238":[
-      "Vision"
-    ],
-    "239":[
-      "Vision"
-    ],
-    "240":[
-      "Vision"
-    ],
-    "241":[
-      "Vision"
-    ],
-    "242":[
-      "Vision"
-    ],
-    "243":[
-      "Vision"
-    ],
-    "244":[
-      "Vision"
-    ],
-    "245":[
-      "Vision"
-    ],
-    "246":[
-      "Vision"
-    ],
-    "247":[
-      "Vision"
-    ],
-    "248":[
-      "S&box"
-    ],
-    "249":[
-      "S&box"
-    ],
-    "250":[
-      "S&box"
-    ],
-    "251":[
-      "S&box"
-    ],
-    "252":[
-      "S&box"
-    ],
-    "253":[
-      "S&box"
-    ],
-    "254":[
-      "S&box"
-    ],
-    "255":[
-      "S&box"
-    ],
-    "256":[
-      "S&box"
-    ],
-    "257":[
-      "S&box"
-    ],
-    "258":[
-      "S&box"
-    ],
-    "259":[
-      "S&box"
-    ],
-    "260":[
-      "S&box"
-    ],
-    "261":[
-      "S&box"
-    ],
-    "262":[
-      "S&box"
-    ],
-    "263":[
-      "S&box"
-    ],
-    "264":[
-      "S&box"
-    ],
-    "265":[
-      "S&box"
-    ],
-    "266":[
-      "S&box"
-    ],
-    "267":[
-      "S&box"
-    ]
+    "Game Engine - Actual":"Unknown"
   },
-  "Game Engine - Actual":{
-    "0":"Unknown",
-    "1":"Unknown",
-    "2":"Unknown",
-    "3":"Unknown",
-    "4":"Unknown",
-    "5":"Unknown",
-    "6":"Unknown",
-    "7":"Unknown",
-    "8":"Unknown",
-    "9":"Unknown",
-    "10":"Unknown",
-    "11":"Unknown",
-    "12":"Unknown",
-    "13":"Unknown",
-    "14":"Unknown",
-    "15":"Unknown",
-    "16":"Unknown",
-    "17":"Unknown",
-    "18":"Unknown",
-    "19":"Unknown",
-    "20":"Unknown",
-    "21":"Unknown",
-    "22":"Unknown",
-    "23":"Unknown",
-    "24":"Unknown",
-    "25":"Unknown",
-    "26":"Unknown",
-    "27":"Unknown",
-    "28":"Unknown",
-    "29":"Unknown",
-    "30":"Unknown",
-    "31":"Unknown",
-    "32":"Unknown",
-    "33":"Unknown",
-    "34":"Unknown",
-    "35":"Unknown",
-    "36":"Unknown",
-    "37":"Unknown",
-    "38":"Unknown",
-    "39":"Unknown",
-    "40":"Unknown",
-    "41":"Unknown",
-    "42":"Unknown",
-    "43":"Unknown",
-    "44":"Unknown",
-    "45":"Unknown",
-    "46":"Unknown",
-    "47":"Unknown",
-    "48":"Unknown",
-    "49":"Unknown",
-    "50":"Unknown",
-    "51":"Unknown",
-    "52":"Unknown",
-    "53":"Unknown",
-    "54":"Unknown",
-    "55":"Unknown",
-    "56":"Unknown",
-    "57":"Unknown",
-    "58":"Unknown",
-    "59":"Unknown",
-    "60":"Unknown",
-    "61":"Unknown",
-    "62":"Unknown",
-    "63":"Unknown",
-    "64":"Unknown",
-    "65":"Unknown",
-    "66":"Unknown",
-    "67":"Unknown",
-    "68":"Unknown",
-    "69":"Unknown",
-    "70":"Unknown",
-    "71":"Unknown",
-    "72":"Unknown",
-    "73":"Unknown",
-    "74":"Unknown",
-    "75":"Unknown",
-    "76":"Unknown",
-    "77":"Unknown",
-    "78":"Unknown",
-    "79":"Unknown",
-    "80":"Unknown",
-    "81":"Unknown",
-    "82":"Unknown",
-    "83":"Unknown",
-    "84":"Unknown",
-    "85":"Unknown",
-    "86":"Unknown",
-    "87":"Unknown",
-    "88":"Unknown",
-    "89":"Unknown",
-    "90":"Unknown",
-    "91":"Unknown",
-    "92":"Unknown",
-    "93":"Unknown",
-    "94":"Unknown",
-    "95":"Unknown",
-    "96":"Unknown",
-    "97":"Unknown",
-    "98":"Unknown",
-    "99":"Unknown",
-    "100":"Unknown",
-    "101":"Unknown",
-    "102":"Unknown",
-    "103":"Unknown",
-    "104":"Unknown",
-    "105":"Unknown",
-    "106":"Unknown",
-    "107":"Unknown",
-    "108":"Unknown",
-    "109":"Unknown",
-    "110":"Unknown",
-    "111":"Unknown",
-    "112":"Unknown",
-    "113":"Unknown",
-    "114":"Unknown",
-    "115":"Unknown",
-    "116":"Unknown",
-    "117":"Unknown",
-    "118":"Unknown",
-    "119":"Unknown",
-    "120":"Unknown",
-    "121":"Unknown",
-    "122":"Unknown",
-    "123":"Unknown",
-    "124":"Unknown",
-    "125":"Unknown",
-    "126":"Unknown",
-    "127":"Unknown",
-    "128":"Unknown",
-    "129":"Unknown",
-    "130":"Unknown",
-    "131":"Unknown",
-    "132":"Unknown",
-    "133":"Unknown",
-    "134":"Unknown",
-    "135":"Unknown",
-    "136":"Unknown",
-    "137":"Unknown",
-    "138":"Unknown",
-    "139":"Unknown",
-    "140":"Unknown",
-    "141":"Unknown",
-    "142":"Unknown",
-    "143":"Unknown",
-    "144":"Unknown",
-    "145":"Unknown",
-    "146":"Unknown",
-    "147":"Unknown",
-    "148":"Unknown",
-    "149":"Unknown",
-    "150":"Unknown",
-    "151":"Unknown",
-    "152":"Unknown",
-    "153":"Unknown",
-    "154":"Unknown",
-    "155":"Unknown",
-    "156":"Unknown",
-    "157":"Unknown",
-    "158":"Unknown",
-    "159":"Unknown",
-    "160":"Unknown",
-    "161":"Unknown",
-    "162":"Unknown",
-    "163":"Unknown",
-    "164":"Unknown",
-    "165":"Unknown",
-    "166":"Unknown",
-    "167":"Unknown",
-    "168":"Unknown",
-    "169":"Unknown",
-    "170":"Unknown",
-    "171":"Unknown",
-    "172":"Unknown",
-    "173":"Unknown",
-    "174":"Unknown",
-    "175":"Unknown",
-    "176":"Unknown",
-    "177":"Unknown",
-    "178":"Unknown",
-    "179":"Unknown",
-    "180":"Unknown",
-    "181":"Unknown",
-    "182":"Unknown",
-    "183":"Unknown",
-    "184":"Unknown",
-    "185":"Unknown",
-    "186":"Unknown",
-    "187":"Unknown",
-    "188":"Unknown",
-    "189":"Unknown",
-    "190":"Unknown",
-    "191":"Unknown",
-    "192":"Unknown",
-    "193":"Unknown",
-    "194":"Unknown",
-    "195":"Unknown",
-    "196":"Unknown",
-    "197":"Unknown",
-    "198":"Unknown",
-    "199":"Unknown",
-    "200":"Unknown",
-    "201":"Unknown",
-    "202":"Unknown",
-    "203":"Unknown",
-    "204":"Unknown",
-    "205":"Unknown",
-    "206":"Unknown",
-    "207":"Unknown",
-    "208":"Unknown",
-    "209":"Unknown",
-    "210":"Unknown",
-    "211":"Unknown",
-    "212":"Unknown",
-    "213":"Unknown",
-    "214":"Unknown",
-    "215":"Unknown",
-    "216":"Unknown",
-    "217":"Unknown",
-    "218":"Unknown",
-    "219":"Unknown",
-    "220":"Unknown",
-    "221":"Unknown",
-    "222":"Unknown",
-    "223":"Unknown",
-    "224":"Unknown",
-    "225":"Unknown",
-    "226":"Unknown",
-    "227":"Unknown",
-    "228":"Unknown",
-    "229":"Unknown",
-    "230":"Unknown",
-    "231":"Unknown",
-    "232":"Unknown",
-    "233":"Unknown",
-    "234":"Unknown",
-    "235":"Unknown",
-    "236":"Unknown",
-    "237":"Unknown",
-    "238":"Unknown",
-    "239":"Unknown",
-    "240":"Unknown",
-    "241":"Unknown",
-    "242":"Unknown",
-    "243":"Unknown",
-    "244":"Unknown",
-    "245":"Unknown",
-    "246":"Unknown",
-    "247":"Unknown",
-    "248":"Unknown",
-    "249":"Unknown",
-    "250":"Unknown",
-    "251":"Unknown",
-    "252":"Unknown",
-    "253":"Unknown",
-    "254":"Unknown",
-    "255":"Unknown",
-    "256":"Unknown",
-    "257":"Unknown",
-    "258":"Unknown",
-    "259":"Unknown",
-    "260":"Unknown",
-    "261":"Unknown",
-    "262":"Unknown",
-    "263":"Unknown",
-    "264":"Unknown",
-    "265":"Unknown",
-    "266":"Unknown",
-    "267":"Unknown"
+  {
+    "PMID":"40579384",
+    "DOI":"10.1002\/ase.70086",
+    "Title":"'SOMS BrainSpace': A digital serious game for undergraduate neuroscience.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40569695",
+    "DOI":"10.1556\/2006.2025.00057",
+    "Title":"Widespread illegal video game advertising in the UK and South Korea: Many adverts not disclosing loot box presence found using Meta's ad repository.",
+    "Citations":32,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40569313",
+    "DOI":"10.1007\/s11548-025-03462-6",
+    "Title":"Augmented reality in pelvic surgery: using an AR-headset as intraoperative radiation-free navigation tool.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40566173",
+    "DOI":"10.3390\/e27060586",
+    "Title":"Entropy Maximization, Time Emergence, and Phase Transition.",
+    "Citations":23,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40564398",
+    "DOI":"10.3390\/bioengineering12060581",
+    "Title":"AdaptRehab VR: Development of an Immersive Virtual Reality System for Upper Limb Stroke Rehabilitation Designed for Low- and Middle-Income Countries Using a Participatory Co-Creation Approach.",
+    "Citations":106,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40532200",
+    "DOI":"10.2196\/73009",
+    "Title":"Development of a Serious Game to Simulate Neonatal Intensive Care Unit Experiences: Collaborative Quasi-Experimental Study.",
+    "Citations":17,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40489616",
+    "DOI":"10.1073\/pnas.2422779122",
+    "Title":"Route of fire: Pregame rituals and emotional synchrony among Brazilian football fans.",
+    "Citations":42,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40423025",
+    "DOI":"10.3390\/jimaging11050168",
+    "Title":"The Creation of Artificial Data for Training a Neural Network Using the Example of a Conveyor Production Line for Flooring.",
+    "Citations":54,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity",
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40270417",
+    "DOI":"10.3233\/SHTI250193",
+    "Title":"Virtual Reality with Moodle for Training in Telemedicine.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40153445",
+    "DOI":"10.1371\/journal.pone.0319385",
+    "Title":"Extraordinary siblings: Mole rats, marmosets, and Radcliffe-Brown.",
+    "Citations":63,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40126159",
+    "DOI":"10.1089\/g4h.2023.0194",
+    "Title":"Proposal of a Serious Game for Dynamic Balance Training Using a Force Platform: A Pilot Study.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40103644",
+    "DOI":"10.1177\/20552076251323989",
+    "Title":"VR-NRP: A development study of a virtual reality simulation for training in the neonatal resuscitation program.",
+    "Citations":55,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40070674",
+    "DOI":"10.1007\/s11571-025-10229-x",
+    "Title":"Rehabilitative game-based system for enhancing physical and cognitive abilities of neurological disorders.",
+    "Citations":21,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40039744",
+    "DOI":"10.1109\/EMBC53108.2024.10782637",
+    "Title":"Haptic-Enhanced Mixed Reality for Upper Limb Rehabilitation in Parkinson's Disease.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39834839",
+    "DOI":"10.3389\/fdgth.2024.1479544",
+    "Title":"Augmented Reality for extremity hemorrhage training: a usability study.",
+    "Citations":61,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39764571",
+    "DOI":"10.1016\/j.eclinm.2024.102798",
+    "Title":"Effect of digital health applications with or without gamification on physical activity and cardiometabolic risk factors: a systematic review and meta-analysis of randomized controlled trials.",
+    "Citations":122,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39538726",
+    "DOI":"10.1364\/OE.520168",
+    "Title":"High-fidelity color characterization in virtual reality across head mounted displays, game engines, and materials.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39278144",
+    "DOI":"10.1016\/j.pedn.2024.09.008",
+    "Title":"Golden Breath: Feasibility and acceptability of a biofeedback-based virtual reality game on reducing children's needle-related pain and fear.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unity"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40392648",
+    "DOI":"10.1109\/TNNLS.2025.3567001",
+    "Title":"UBG: An Unreal BattleGround Benchmark With Object-Aware Hierarchical Proximal Policy Optimization.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unreal Engine"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40328184",
+    "DOI":"10.1016\/j.jflm.2025.102865",
+    "Title":"Unidentified: Simulation-based education in forensic odontology.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unreal Engine"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39892353",
+    "DOI":"10.1016\/j.neunet.2025.107207",
+    "Title":"U3UNet: An accurate and reliable segmentation model for forest fire monitoring based on UAV vision.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unreal Engine"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"39820059",
+    "DOI":"10.1371\/journal.pone.0308848",
+    "Title":"DomeVR: Immersive virtual reality for primates and rodents.",
+    "Citations":39,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unreal Engine"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"38496473",
+    "DOI":"10.1101\/2023.12.08.570879",
+    "Title":"Rendering protein structures inside cells at the atomic level with Unreal Engine.",
+    "Citations":21,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unreal Engine"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"37647108",
+    "DOI":"10.2196\/46398",
+    "Title":"Design and Evaluation of Using Head-Mounted Virtual Reality for Learning Clinical Procedures: Mixed Methods Study.",
+    "Citations":38,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unreal Engine"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"32267886",
+    "DOI":"10.1371\/journal.pone.0231152",
+    "Title":"Accuracy and precision of stimulus timing and reaction times with Unreal Engine and SteamVR.",
+    "Citations":53,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Unreal Engine"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40719537",
+    "DOI":"10.3390\/s25113572",
+    "Title":"AI-Powered Analysis of Eye Tracker Data in Basketball Game.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40700175",
+    "DOI":"10.3390\/jfmk10030239",
+    "Title":"Light-Based Reaction Speed Does Not Predict Field-Based Reactive Agility in Soccer Players.",
+    "Citations":44,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40690340",
+    "DOI":"10.1109\/TNSRE.2025.3591104",
+    "Title":"Low-cost Vision-Based 3D Elbow Tracking for Post-Stroke Rehabilitation: Development and Pilot Evaluation of a Serious Game.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40685494",
+    "DOI":"10.1007\/s13346-025-01925-6",
+    "Title":"Emerging innovations in ophthalmic drug delivery for diabetic retinopathy: a translational perspective.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40595874",
+    "DOI":"10.1038\/s41598-025-05462-7",
+    "Title":"Real-time analysis of soccer ball-player interactions using graph convolutional networks for enhanced game insights.",
+    "Citations":101,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40558810",
+    "DOI":"10.3390\/jintelligence13060060",
+    "Title":"Generative AI in Game Design: Enhancing Creativity or Constraining Innovation?",
+    "Citations":62,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40548225",
+    "DOI":"10.5662\/wjm.v15.i2.100937",
+    "Title":"Magnification: The game changer in dentistry.",
+    "Citations":62,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40542370",
+    "DOI":"10.1186\/s13063-025-08933-4",
+    "Title":"Comparison of a novel gamified binocular therapy and standard monocular patching therapy in treating unilateral amblyopia in young children: a prospective, multicenter, randomized controlled trial.",
+    "Citations":38,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40531898",
+    "DOI":"10.1371\/journal.pone.0324862",
+    "Title":"Performance of teenaged action video game players on the Developmental Eye Movement and King-Devick tests.",
+    "Citations":56,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40474658",
+    "DOI":"10.1111\/opo.13534",
+    "Title":"Efficacy of patching combined with action video games in amblyopic children aged 4-10\u2009years: A randomised clinical trial.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40440164",
+    "DOI":"10.1167\/iovs.66.5.45",
+    "Title":"Recent Advances in Stem Cells of Corneal Epithelia.",
+    "Citations":125,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40438470",
+    "DOI":"10.1056\/AIcs2400510",
+    "Title":"Validation of a Mobile App for Remote Autism Screening in Toddlers.",
+    "Citations":34,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40424615",
+    "DOI":"10.2196\/73135",
+    "Title":"Haptic-Driven Serious Card Games for Older Adults: User Preferences Study.",
+    "Citations":55,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40374701",
+    "DOI":"10.1038\/s41598-025-96671-7",
+    "Title":"Relationship between adolescent gaming addiction and myopia, ocular surface condition, and health status: a questionnaire based cohort study.",
+    "Citations":44,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40354947",
+    "DOI":"10.1016\/j.survophthal.2025.05.001",
+    "Title":"Augmented and virtual reality in retinal care: A systematic review of their role in training, surgery, and treatment.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40346458",
+    "DOI":"10.1186\/s12859-025-06136-x",
+    "Title":"PCVR: a pre-trained contextualized visual representation for DNA sequence classification.",
+    "Citations":48,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40316556",
+    "DOI":"10.1038\/s41598-025-00279-w",
+    "Title":"Confidence signalling aids deception in strategic interactions.",
+    "Citations":55,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40214829",
+    "DOI":"10.1007\/s40123-025-01117-y",
+    "Title":"New Mixed Reality Headset: First Exploratory Use in Intraocular Surgery and Telementoring.",
+    "Citations":29,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40188286",
+    "DOI":"10.1007\/s00417-025-06816-7",
+    "Title":"Neuroprotection beyond intraocular pressure: game changer or quiet addiction.",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "Vision"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727834",
+    "DOI":"10.1021\/acsomega.5c04540",
+    "Title":"What's in My Coffee? Do-It-Yourself Testing for Chicory Adulteration Using Particle Trapping in Stencil-Based Paper Devices.",
+    "Citations":32,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727828",
+    "DOI":"10.1021\/acsomega.5c04146",
+    "Title":"Antioxidant and Anti-inflammatory Activity of Eugenol, Bis-eugenol, and Clove Essential Oil: An In Vitro Study.",
+    "Citations":46,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727818",
+    "DOI":"10.1021\/acsomega.5c05456",
+    "Title":"Environmentally Friendly Nanocoating for Rapid Detection of Nerve Agents on Textile Fabric.",
+    "Citations":50,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727813",
+    "DOI":"10.1021\/acsomega.5c04551",
+    "Title":"Antileishmanial and Antitoxoplasmal Activities of 1,4-Dihydropyridines.",
+    "Citations":61,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727804",
+    "DOI":"10.1021\/acsomega.5c03536",
+    "Title":"Quasiparticle Band Structure, Exciton, and Optical Property in Janus Structures of Transition-Metal Dichalcogenide Monolayers.",
+    "Citations":74,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727803",
+    "DOI":"10.1021\/acsomega.5c03018",
+    "Title":"Molecular Determinants of Mg(2+)-Mediated Inhibition in RyR1: Insights from Computational Approaches.",
+    "Citations":47,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727801",
+    "DOI":"10.1021\/acsomega.5c02227",
+    "Title":"Phenotypic Drug Discovery Platform by Quantitative High-Throughput Screening Identifies Antiapoptotic Molecules in a Zebrafish Model of Age-Related Macular Degeneration.",
+    "Citations":59,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727799",
+    "DOI":"10.1021\/acsomega.5c02695",
+    "Title":"Facile Diastereoselective Synthesis of Dihydroxyadipic Acid and Dihydroxyadipic Dilactone by Catalytic Reduction of Biosourced 3\u2011Hydroxy-2-Pyrone-6-Carboxylic Acid.",
+    "Citations":37,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727795",
+    "DOI":"10.1021\/acsomega.5c01443",
+    "Title":"MCST-AFN: A Multichannel Spatiotemporal Feature Adaptive Fusion Network Framework Based on a Low-Fidelity Molecular Dynamics Model.",
+    "Citations":54,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727794",
+    "DOI":"10.1021\/acsomega.5c01531",
+    "Title":"Early Exposure of an Infantile Rat to Sex-Related Content Induces Precocious Puberty by Activation of Cholinergic Neurons in the Amygdala and KNDy Neurons in the Arcuate Nucleus.",
+    "Citations":37,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727792",
+    "DOI":"10.1021\/acsomega.5c06137",
+    "Title":"Retraction of \"Design, Synthesis, and Biological Evaluation of Notopterol Derivatives as Triple Inhibitors of AChE\/BACE1\/GSK3\u03b2 for the Treatment of Alzheimer's Disease\".",
+    "Citations":"",
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727791",
+    "DOI":"10.1021\/acsomega.5c03389",
+    "Title":"Elastic Constants of Few-Layer \u03b1\u2011Sb(2)O(3) from First-Principles Calculations: Insights into Mechanical Properties.",
+    "Citations":42,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727790",
+    "DOI":"10.1021\/acsomega.5c02699",
+    "Title":"Naphthylimide Chemosensor Based on Anion-\u03c0 Interactions: A Promising Tool for Environmental Monitoring.",
+    "Citations":66,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727779",
+    "DOI":"10.1021\/acsomega.5c04238",
+    "Title":"Microfluidic Paper-Based Electrochemical Immunosensor for the Detection of Prostate-Specific Antigen (PSA) Based on Modified Flexible Screen-Printed Carbon Electrodes.",
+    "Citations":43,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727777",
+    "DOI":"10.1021\/acsomega.5c02315",
+    "Title":"Photoactive Hydrogel-Based Therapy for Biofilm Disruption in Chronic Wound Infections.",
+    "Citations":34,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727773",
+    "DOI":"10.1021\/acsomega.5c04707",
+    "Title":"Waste-to-Resource Transformation: Porous Carbon Materials Derived from Distiller's Grains for Efficient Adsorption of Light Gaseous Hydrocarbons.",
+    "Citations":45,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727772",
+    "DOI":"10.1021\/acsomega.5c02054",
+    "Title":"Effects of Different Pressures and Temperatures on the Gas Adsorption Characteristics of Coking Coal Based on Two-Factor Variance.",
+    "Citations":41,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727765",
+    "DOI":"10.1021\/acsomega.5c00957",
+    "Title":"Advanced Molecular Electron Density Theory Study of the Substituent Effects in Nucleophilic Substitution Reactions.",
+    "Citations":60,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
+  },
+  {
+    "PMID":"40727764",
+    "DOI":"10.1021\/acsomega.4c09933",
+    "Title":"A Low Protein Binding Electrospun Membrane Filter for Efficient Biological Media Sterilization.",
+    "Citations":35,
+    "Relevant":true,
+    "Comment":"Not reviewed yet",
+    "Game Engines - Search":[
+      "S&box"
+    ],
+    "Game Engine - Actual":"Unknown"
   }
-}
+]

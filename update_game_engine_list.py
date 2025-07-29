@@ -103,7 +103,7 @@ if __name__ == "__main__":
     # TO DO - this script could just up date the database, then the creation of js could be done
     # elsewhere
     games_df = pd.DataFrame(games.get("data", []))
-    games_df.to_json("data/game_engine.db", indent=2)
+    games_df.to_json("data/game_engine.db", indent=2, orient="records")
 
     # we don't want to show the paper IDs on our table
     for game in games.get("data", []):

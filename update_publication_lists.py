@@ -70,8 +70,6 @@ if __name__ == "__main__":
     except ValueError:
         papers_df = pd.DataFrame()
 
-    new_papers_dict = []
-
     # TODO should we use apply instead of iterating?
     # https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html
     for index, game_engine in game_engines_df.iterrows():
@@ -99,7 +97,7 @@ if __name__ == "__main__":
                 doi, game_engine.loc["Name"], papers_df
             )
             if not already_present:
-                new_papers_dict.append(
+                new_paper = pd.DataFrame(
                     {
                         "PMID": pmid,
                         "DOI": doi,
@@ -107,13 +105,15 @@ if __name__ == "__main__":
                         "Citations": citations,
                         "Relevant": True,  # all relevant until checked otherwise
                         "Comment": "Not reviewed yet",  # Free text comment
-                        "Game Engines - Search": [game_engine.loc["Name"]],
+                        "Game Engines - Search": [[game_engine.loc["Name"]]],
                         "Game Engine - Actual": "Unknown",  # Update this after review
                     }
                 )
 
+                papers_df = pd.concat([papers_df, new_paper])
+                papers_df.to_json(
+                    "data/game_engine_papers.db", indent=2, orient="records"
+                )
+
             print("Found new " + title)
             print("https://doi.org/" + doi)
-
-    papers_df = pd.concat([papers_df, pd.DataFrame(new_papers_dict)], ignore_index=True)
-    papers_df.to_json("data/game_engine_papers.db", indent=2)
