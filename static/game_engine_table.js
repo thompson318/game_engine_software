@@ -1241,7 +1241,7 @@ function generateTable(data) {
   if (!data || data.length === 0) return "No data available.";
   // Create the table element
   const table = document.createElement('table');
-  
+
   // Generate table headers
   const headerRow = document.createElement('tr');
   const keys = Object.keys(data[0]); // Get keys from the first object
@@ -1256,9 +1256,19 @@ function generateTable(data) {
     const row = document.createElement('tr');
     keys.forEach(key => {
       const td = document.createElement('td');
-      td.textContent = item[key] || ""; // Fill empty fields with blank
+      if (item[key] === 0){
+         td.textContent = item[key]
+      }
+      else{
+         td.textContent = item[key] || ""; // Fill empty fields with blank
+      };
       if (key === 'PubMed Link' || key === 'PubMed Game Link'){
-	    td.innerHTML = "<a href=" + item[key] + " target='_blank'>PubMed</a>";
+        td.innerHTML = "<a href=" + item[key] + " target='_blank'>PubMed</a>";
+      };
+      if (key === 'Name'){
+	if (item['PubMed game citations'] != '-' && item['PubMed game citations'] > 0){
+          td.innerHTML = "<a href=" + item[key].split(" ").join("_") + ".html>" + item[key] + "</a>";
+	};
       };
       row.appendChild(td);
     });
