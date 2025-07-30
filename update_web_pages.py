@@ -36,6 +36,12 @@ def update_game_engine_page(engine: pd.Series, publications: pd.DataFrame) -> in
         with open("src/index.html", "r") as filein:
             html = filein.read()
             html = html.replace("game_engine_table.js", link_name + ".js")
+            html = html.replace(
+                "A list of game engines (from wikipedia) and PubMed citation counts",
+                "A list of papers indexed on PubMed mentioning "
+                + engine["Name"]
+                + " and game.",
+            )
         with open("static/" + link_name + ".html", "w") as fileout:
             fileout.write(html)
 
