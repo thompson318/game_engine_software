@@ -5,11 +5,17 @@ def update_main_page(games_df):
     # we don't want to show the paper IDs on our table
     games_main_df = games_df.drop("Paper IDs", axis=1)
 
-    with open("script.js", "r") as filein:
+    with open("src/index.html", "r") as filein:
+        html = filein.read()
+
+    with open("static/index.html", "w") as fileout:
+        fileout.write(html)
+
+    with open("src/script_engines.js", "r") as filein:
         script = filein.read()
 
     engines = games_main_df.to_json(None, indent=2, orient="records")
-    with open("game_engine_table.js", "w") as fileout:
+    with open("static/game_engine_table.js", "w") as fileout:
         fileout.write('const game_engines = { \n "data": ' + engines)
         fileout.write("}\n")
         fileout.write(script)
@@ -23,16 +29,32 @@ def update_game_engine_page(engine: pd.Series, publications: pd.DataFrame) -> in
         link_name = engine["Name"].replace(" ", "_")
         this_paper = set([engine["Name"]])
         contains_this_paper = this_paper.issubset
-        papers = publications[
+        papers_df = publications[
             publications["Game Engines - Search"].map(contains_this_paper)
         ]
 
-        print("Found " + str(len(papers)) + " papers for " + engine["Name"])
-        with open("index.html", "r") as filein:
+        with open("src/index.html", "r") as filein:
             html = filein.read()
-        with open("engines/" + link_name + ".html", "w") as fileout:
+            html = html.replace("game_engine_table.js", link_name + ".js")
+        with open("static/" + link_name + ".html", "w") as fileout:
             fileout.write(html)
-        return len(papers)
+
+        # prepare data for writing out
+        papers_df = papers_df[papers_df["Relevant"]]
+        papers_df = papers_df.drop(
+            ["PMID", "Relevant", "Comment", "Game Engines - Search"], axis=1
+        )
+        papers = papers_df.to_json(None, indent=2, orient="records")
+        with open("src/script_papers.js", "r") as filein:
+            script = filein.read()
+
+        with open("static/" + link_name + ".js", "w") as fileout:
+            fileout.write('const papers = { \n "data": ' + papers)
+            fileout.write("}\n")
+            fileout.write(script)
+
+        return len(papers_df)
+
     return 0
 
 
