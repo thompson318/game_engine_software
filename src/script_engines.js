@@ -30,7 +30,7 @@ function generateTable(data) {
       if (key === 'PubMed Link' || key === 'PubMed Game Link'){
         td.innerHTML = "<a href=" + item[key] + " target='_blank'>PubMed</a>";
       };
-      if (key === 'Name' || key === 'PubMed Game Link'){
+      if (key === 'Name'){
 	if (item['PubMed game citations'] != '-' && item['PubMed game citations'] > 0){
           td.innerHTML = "<a href=" + item[key].split(" ").join("_") + ".html target='_blank'>" + item[key] + "</a>";
 	};
