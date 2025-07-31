@@ -50,6 +50,10 @@ def check_if_paper_already_present(
 
     if len(paper_df) == 1:
         game_engine_names = paper_df.iloc[0]["Game Engines - Search"]
+        # we should always update the citation count
+        papers_df[papers_df["DOI"] == doi].iloc[0]["Citations"] = paper_df.iloc[0][
+            "Citations"
+        ]
         if game_engine_name not in game_engine_names:
             game_engine_names.append(game_engine_name)
             papers_df[papers_df["DOI"] == doi].iloc[0]["Game Engines - Search"] = (
