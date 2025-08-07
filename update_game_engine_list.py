@@ -49,6 +49,18 @@ def get_citations_and_url(
     return human_url, count, paperIDs
 
 
+def get_relevancy_statistics(engine_name: str, publications_df: pd.DataFrame):
+    """Searches the publications data frame to determine how many papers have
+    been read and what proportion of them are relevant.
+
+    :param engine_name: the engine name
+    :param publications_df: a dataframe of publications
+    :returns: a tuple of the number of read publications and the percent
+        relevant
+    """
+    return 0, 0.0
+
+
 if __name__ == "__main__":
     game_engines = get_game_engines()
 
