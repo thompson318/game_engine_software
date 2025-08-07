@@ -1,12 +1,6 @@
 const papers = { 
  "data": [
   {
-    "DOI":"10.1007\/s00464-014-3768-3",
-    "Title":"Extending the reach of stapled anastomosis with a prepared OrVil\u2122 device in laparoscopic oesophageal and gastric cancer surgery.",
-    "Citations":"",
-    "Game Engine - Actual":"Unknown"
-  },
-  {
     "DOI":"10.1136\/bjsm.37.4.325",
     "Title":"Evaluation of cricket helmet performance and comparison with baseball and ice hockey helmets.",
     "Citations":11,
