@@ -1,4 +1,5 @@
 import pandas as pd
+import math
 
 
 def get_relevancy_statistics(engine_name: str, publications_df: pd.DataFrame):
@@ -15,10 +16,18 @@ def get_relevancy_statistics(engine_name: str, publications_df: pd.DataFrame):
         publications_df["Game Engines - Search"].apply(lambda x: engine_name in x)
     ]
     unread_papers = papers[papers["Comment"] == "Not reviewed yet"]
-    # relevant_papers = papers[papers["Relevant"]]
     read_papers = len(papers) - len(unread_papers)
 
-    return read_papers, 0.0
+    relevant_papers = papers[
+        papers["Relevant"] & papers["Comment"] == "Not reviewed yet"
+    ]
+
+    try:
+        percent_relevant = len(relevant_papers) / read_papers * 100.0
+    except ZeroDivisionError:
+        percent_relevant = math.nan
+
+    return read_papers, percent_relevant
 
 
 if __name__ == "__main__":
@@ -34,5 +43,7 @@ if __name__ == "__main__":
             + game_engine["Name"]
             + " got "
             + str(read_papers)
-            + " read papers."
+            + " read papers. "
+            + str(relevancy)
+            + " % of which were relevant."
         )
