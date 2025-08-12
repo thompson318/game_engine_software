@@ -34,16 +34,18 @@ if __name__ == "__main__":
     game_engines_df = pd.read_json("data/game_engine.db")
     publications_df = pd.read_json("data/game_engine_papers.db")
 
+    relevancy_string = []
     for index, game_engine in game_engines_df.iterrows():
-        read_papers, relevancy = get_relevancy_statistics(
-            game_engine["Name"], publications_df
-        )
-        print(
-            "processing "
-            + game_engine["Name"]
-            + " got "
-            + str(read_papers)
-            + " read papers. "
-            + str(relevancy)
-            + " % of which were relevant."
-        )
+        if (
+            game_engine["PubMed game citations"] != "-"
+            and int(game_engine["PubMed game citations"]) > 0
+        ):
+            read_papers, relevancy = get_relevancy_statistics(
+                game_engine["Name"], publications_df
+            )
+            relevancy_string.append(str(relevancy) + "% of " + str(read_papers))
+        else:
+            relevancy_string.append("-")
+
+    game_engines_df.insert(3, "Relevancy and read papers.", relevancy_string)
+    game_engines_df.to_json("data/game_engine.db", indent=2, orient="records")
